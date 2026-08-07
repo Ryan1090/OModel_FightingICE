@@ -1,0 +1,10 @@
+# Upstream archives -- publicly downloadable, ~1.9 GB, and five exceed GitHub's 100 MB
+# per-file limit. Redistribution rights for the engine assets and the third-party
+# competition submissions are unresolved. Bytes are pinned by SHA-256; see ARCHIVES.md.
+7.0 zips/
+7.1 zips/
+past agents/
+
+# Python bytecode
+__pycache__/
+*.pyc
