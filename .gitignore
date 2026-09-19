@@ -8,3 +8,5 @@ past agents/
 # Python bytecode
 __pycache__/
 *.pyc
+/.venv/
+/runtime/
