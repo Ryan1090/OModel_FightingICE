@@ -1,0 +1,25 @@
+An example of agent policy that just walks towards opponent and punch when close is below
+
+    def choose_action(
+        self,
+        frame: FrameData,
+        choice_features: Sequence[Sequence[float]],
+        feedback: PolicyFeedback,
+    ) -> Action | None:
+        """TODO: choose one of POLICY_CHOICES: 41 commands or None for WAIT."""
+        # TODO: replace this fallback with reflex rules, then a learned policy when ready.
+        # EDIT: --demo-action repeatedly ATTEMPTS that command whenever the queue is empty.
+        # It ignores game legality and may fail, hold a button, or produce a different move.
+        if self.demo_action is not None:
+            return self.demo_action
+        else:
+            player_index = 0 if self.player else 1
+            player = frame.character_data[player_index]
+            opponent = frame.character_data[1 - player_index]
+            if abs(player.x - opponent.x) < 100:
+                if self.last_requested_choice == Action.STAND_A:
+                    return None
+                else:
+                    return Action.STAND_A
+            else:
+                return Action.FORWARD_WALK
