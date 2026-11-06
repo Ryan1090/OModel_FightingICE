@@ -1,0 +1,573 @@
+{
+  "contract_version": "synthetic-functional-d5-v1",
+  "frozen_at": "2026-10-04T21:24:41.558361+08:00",
+  "inputs": {
+    "population": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B5_2026_10_03\\contract\\B5_POPULATION.csv",
+      "sha256": "1765d4fc3a60721dd4989ea5c4c6491968ceab5b4c7941e70bbce078e3d907d3"
+    },
+    "source_pool": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\aicontroller_race_blindai_runtime_2026_09_25\\results\\master\\final_usable_opponent_pool.csv",
+      "sha256": "9120949c2bb28be945fd4fe03ff6187bca42ebf9f12961f16b8772c56c0aef28"
+    },
+    "inventory": {
+      "path": "D:\\fightICE\\ai agent work\\audit\\agent_inventory.csv",
+      "sha256": "881fa4006d0d74a581b39ea57d9308c3e13784e675a2e810108c0c8454ae071e"
+    },
+    "engine": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\work\\FightingICE.d5.audit.jar",
+      "sha256": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635"
+    },
+    "stock_motion_sha256": {
+      "ZEN": "49bfe1dcbb669481b434418f2ba6890688922302f556073ad33f0539bf71c800",
+      "GARNET": "f825dd81abfd6d273ce7190bf156faea7de609adf75511b8485fcd1b8fa9102e",
+      "LUD": "6d3136cdefefae2417502ae25ece08ecdac4db74386e232efb31475054400de5",
+      "KFM": "aeb524f6070e7f705376c76f67ec13951ca4909781e380107e8345c2432eff65",
+      "NEZ": "e9afadf05bb3cb5000d266e09bd75053c32851f7f12d2df05db28dd690014276"
+    },
+    "runner": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\scripts\\run_d.py",
+      "sha256": "e1ee2e64c20a2ce6daffef0848cb17ebdce68ea7dc3c608a9fc2a569b558fb7b"
+    },
+    "pilot_audit": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B5_2026_10_03\\scripts\\audit_pilot.py",
+      "sha256": "fea1bdcad140086623a4e87ad695e0e239d552d13df3aef4308a14ecfb2bc1f9"
+    },
+    "adapter": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\adapter_io_audit_2026_09_25\\adapters\\legacy_java_v3\\legacy-java-v3-adapter.jar",
+      "sha256": "1124656dcadff3d7d36b7dfe35664a3cb73b3d434e0e0f0c3fba3177743de63d"
+    },
+    "isolated_adapter": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_A_2026_09_30\\contract\\isolated-legacy-java-v3-adapter.jar",
+      "sha256": "01237f450ff8103b6eda269e920942722e682f6fa37f8eea349204e6644278d4"
+    },
+    "poring_support": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_A_2026_09_30\\contract\\PoringNodeSupport.jar",
+      "sha256": "8579ff32b480e606d984a9bf50bce382c3afc98dfc2328c50dd23be73429772b"
+    },
+    "case_runner": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\competency_prerequisites_2026_09_26\\scripts\\python_asym_case.py",
+      "sha256": "6b542bec4a73fd23ad7db723dcbee30324139630b59b05b93e0c12b4083e69cd"
+    },
+    "cas_runtime": {
+      "agent_id": "2023-AI_track-CAS",
+      "python_path": "C:\\Users\\Ryanm\\OneDrive\\Documents\\fightICE\\stock_competency_B_2026_09_30_hot\\cas_runtime_py310\\Scripts\\python.exe",
+      "python_sha256": "44f5a93280543f52f47b1d6a9c96e42e0baf56142db5614629fd1e70deafca5f",
+      "requirements_path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\contract\\CAS_RUNTIME_REQUIREMENTS.txt",
+      "requirements_sha256": "20841b325761836a9971a16071a53758e80dc5961bebde20c357fbfa24423694",
+      "lock_path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\contract\\CAS_RUNTIME_LOCK.txt",
+      "lock_sha256": "e5a2cb1834b5a294bd5bc7aef9c1e1d5e8ba55302ebca3c1296403b3b41f6132",
+      "validator_path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\scripts\\validate_cas_runtime.py",
+      "validator_sha256": "68e618ffd31dfc295fce916442f3c9aa69c2df54b029fe00d54b39faba936757",
+      "tianshou_wheel_path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\contract\\dependencies\\tianshou-0.5.0-py3-none-any.whl",
+      "tianshou_wheel_sha256": "2f991bd76e8dd941b029010540618090f8bb49ba5cb82afcabff1147ad4327c5",
+      "routing": "only focal agent_id 2023-AI_track-CAS uses this interpreter; every other Python configuration retains D:\\fightICE\\.venv\\Scripts\\python.exe"
+    },
+    "old_b_results": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\report_bundle\\tournament_results.csv",
+      "sha256": "8a631a3ffab9c298a6574fb3819f18014c5165957d6e841c30450f8e2c21b652"
+    },
+    "old_b_schedule": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\report_bundle\\TOURNAMENT_SCHEDULE.csv",
+      "sha256": "f52022149469aceb97c9a10033d29a7f8d99ce53be365ec9ea52fabb625bea87"
+    },
+    "a5_matrix": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_A5_extension_2026_10_03\\report_bundle\\five_character_eligibility_matrix.csv",
+      "sha256": "05825a7b976e5155f4e0e1e8dc5c4fbee6aa559b5332320b25bdfbe7066509ec"
+    },
+    "inherited_runner": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B_2026_09_30\\scripts\\run_tournament.py",
+      "sha256": "dd1e2cde01875aa21c14861916b88a40b68810f2f3854c56fc596248f2d8f5a1"
+    },
+    "implementation_fix_01": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B5_2026_10_03\\contract\\IMPLEMENTATION_FIX_01.md",
+      "sha256": "cbfc2e4a0bf79522240a0f37fab25827e46b0fa4b84acec7feab1e460abb28ed"
+    },
+    "implementation_fix_02": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B5_2026_10_03\\contract\\IMPLEMENTATION_FIX_02.md",
+      "sha256": "e64a402ee1429f02d78799d615849fdfd5f3966dce575767f75194fba1576940"
+    },
+    "implementation_fix_03": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\stock_competency_B5_2026_10_03\\contract\\IMPLEMENTATION_FIX_03_FACING_STATUS_WRITE.md",
+      "sha256": "c3799dc9f50c51b912f3f9bb7e2e7ba8b2f1350929b05279635d06f20c96dd08"
+    },
+    "main_python_runtime": {
+      "path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\stock_competency_A5_extension_2026_10_03_v2\\python_env\\Scripts\\python.exe",
+      "sha256": "137c474a645a9471ab3a369084e7cd573cd8b7ff8f81cb85363fffdf5904106c",
+      "routing": "all non-CAS Python focal controllers; CAS retains inputs.cas_runtime"
+    },
+    "runtime_manifest": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\contract\\D_RUNTIME_MANIFEST.json",
+      "sha256": "1ad6366c49ed8abede2016e5461f81740133c1ed84d6d2e289475c625050643e"
+    },
+    "compatibility_table": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\report_bundle\\FIVE_CHARACTER_FACING_COMPATIBILITY.csv",
+      "sha256": "d245f9d33c33579a30923befbb609564a8c52917123822f514feff29675bda12"
+    },
+    "sentinel_table": {
+      "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\report_bundle\\D_SENTINEL_SELECTION.csv",
+      "sha256": "e8f18a1f604088ce9ea56bf063e5cc28c089e6931573432ad209b6d5d3e962b8"
+    }
+  },
+  "schedule": {
+    "namespace": "synthetic-functional-d5-2026-10-04-v1",
+    "rows": 15774,
+    "schedule_sha256": "7f07b3da21edc3e186aab9f4186738ec77e0cd2d10cabea77b151ca3d26cb321",
+    "precheck_rows": 60,
+    "precheck_sha256": "4eab20a77bf551cd33470093cc5be4bb37ce4008ed12663152f6705a7595ee01",
+    "gate_rows": 12,
+    "gate_sha256": "4e754420ce41aa9fb6130c7f744f1059aae82989dec3188043924f9a8d7e45cb",
+    "pilot_rows": 48,
+    "pilot_sha256": "ee8756164fc49dda1873d93d5f06b1ddfdaad7cb35ad109715625d20d1892d4f",
+    "direction_A_relationships": 453,
+    "direction_B_relationships": 2176
+  },
+  "execution": {
+    "frame_limit": 600,
+    "initial_hp": 400,
+    "rounds_per_process": 1,
+    "workers": 8,
+    "job_wall_timeout_seconds": 300,
+    "socket_start_timeout_seconds": 60,
+    "transient_retry_limit": 1,
+    "transient_retry_classes": [
+      "socket bind/address-in-use before game start",
+      "Windows sharing violation before game start"
+    ],
+    "scientific_failure_retry": false,
+    "incomplete_interruption_policy": "discard partial evidence and restart the original frozen job from frame zero",
+    "runtime_root": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_functional_D5_2026_10_04\\runtimes",
+    "ports_root": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_functional_D5_2026_10_04\\ports",
+    "template_runtime": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\stock_competency_A5_extension_2026_10_03_v2\\runtimes\\worker_0",
+    "failed_primary_jobs_are_finalized": "yes; adjudicated separately; never silently rerun",
+    "detached": true
+  },
+  "interaction_status": {
+    "near_zero": "elapsed >= 3420 AND total damage <= 10 AND total attack-action onsets <= 4 AND fraction of frames with centre distance <= 200 px <= 0.01",
+    "low_damage_active": "elapsed >= 3420 AND total damage <= 20 but near_zero is false",
+    "strength_treatment": "near_zero receives score 0.5; other completed rounds use final HP comparison; all remain in behavioural, exploitability, and reliability evidence"
+  },
+  "pilot_gate": {
+    "planned_pause_after_jobs": 6,
+    "requires_resume_event": true,
+    "required_failed_jobs": 0,
+    "required_schedule_accounting": "exact",
+    "required_characters": [
+      "KFM",
+      "NEZ"
+    ],
+    "required_pairing_types": [
+      "mirror",
+      "non_mirror"
+    ],
+    "required_sides": [
+      "P1",
+      "P2"
+    ],
+    "required_families": [
+      "fuzzy",
+      "hybrid",
+      "instance",
+      "learned",
+      "planning",
+      "rule",
+      "stochastic",
+      "unknown"
+    ],
+    "required_routes": [
+      "Java+Kotlin:adapter_java",
+      "Java:adapter_java",
+      "Java:running",
+      "Python:port_py4j",
+      "Python:port_pyftg",
+      "Python:running"
+    ],
+    "max_p95_wall_seconds": 240,
+    "max_single_wall_seconds": 300,
+    "max_near_zero_fraction": 0.5,
+    "minimum_outcome_categories": 2,
+    "required_trace_hash_fraction": 1.0
+  },
+  "unattended_stop": {
+    "input_hash_mismatch": "immediate",
+    "consecutive_failed_jobs": 5,
+    "failed_job_fraction_after_100": 0.02,
+    "minimum_free_disk_gib": 10,
+    "status_or_checkpoint_write_failure": "immediate"
+  },
+  "analysis": {
+    "strength_model": "ridge-regularized Bradley-Terry binomial model with configuration effects, ordered controlled-character/opponent-character fixed effects, and P1 side effect; fractional 0.5 response for draws; lambda=1.0; sum-to-zero configuration constraint by post-fit centering",
+    "controller_character_decomposition": "controller effect is the equal-character mean of its available configuration effects; controlled-character deviation is configuration minus controller mean; character-pair fixed effects estimate opponent-character structure",
+    "uncertainty": "500 cluster bootstrap replicates over unordered underlying-agent-pair clusters, retaining both sides, all roots, and repeats; identical replay hashes within an effective config-pair/side collapse to one weighted observation per bootstrap sample; percentile 95% intervals",
+    "residuals": "observed unique-outcome score minus fitted expected score aggregated by unordered configuration pair with empirical-Bayes shrinkage n/(n+3)",
+    "exploitability": "configuration lower-decile shrunk residual and residual standard deviation across distinct opponent configurations, reported separately from overall strength; probe descriptors normalized within controlled character and kept separate",
+    "behavioural_features": [
+      "action-class frequencies",
+      "action-transition entropy",
+      "direct-action onset rate",
+      "distance-band occupancy",
+      "approach/retreat balance",
+      "guard occupancy",
+      "projectile-action frequency",
+      "movement occupancy",
+      "damage exchange",
+      "passive-proactivity A-v2 descriptors",
+      "tempo"
+    ],
+    "normalisation": "continuous behavioural features robust-z-scored within controlled character using median and MAD; zero-MAD features set to zero",
+    "determinism": "within frozen repeatability cells, exact replay-hash duplication plus cosine distance between fingerprints; repeats are not IID",
+    "state_responsiveness": "conditional action-distribution variation across preregistered distance, HP-difference, meter, and opponent-action-state bins with minimum 100 observed frames per compared bin",
+    "adaptation": "first versus final match thirds compared only within matched distance x HP-difference x meter x opponent-pressure bins; minimum 100 frames in each temporal half of a bin; Jensen-Shannon divergence with 500 block permutations of 120-frame blocks; FDR q=0.05; otherwise insufficient evidence",
+    "clustering": "concatenate PCA(95% variance, max 20) of shrunk residual vectors and robust-scaled fingerprints; k-medoids with Gower distance; choose k in 2..12 by maximum mean silhouette, smallest k within 0.01 of maximum; metadata overlaid only after clustering",
+    "interface_effects": "post-hoc ridge linear models of strength and fingerprints on interface, adapter/current route, character, and interface x character; cluster-bootstrap intervals by underlying agent/lineage",
+    "historical_sanity": "within each year/cohort having explicit trustworthy local placings for at least five included agents, Spearman rho and Kendall tau against adjusted controller strength; no pooling across years; unavailable cohorts reported not assessable",
+    "headroom": "each frozen deterministic-argmax ZEN checkpoint faces every configuration in both learner-side orientations for one 3600-frame round; learner score and HP margin define inverse opponent headroom; overlap with checkpoint training opponent is flagged and excluded from the primary across-checkpoint median for that opponent when at least two non-overlap checkpoints remain",
+    "headroom_checkpoints": [
+      {
+        "checkpoint_id": "mixed_stock_seed927_t0849702",
+        "training_character": "ZEN",
+        "training_opponents": [
+          "Fuzzy_ZYQAI",
+          "ReiwaThunder",
+          "MonkeyLink_TriplePM",
+          "Caselene"
+        ],
+        "training_regime": "stock ZEN, deterministic-policy feasibility-era PPO, balanced four-opponent pool, seed 927, 849702 transitions",
+        "environment": "DareFightingICE 7.1 stock material",
+        "primary_stock_headroom": true,
+        "path": "D:\\fightICE\\ai agent work\\tools\\aicontroller_race_blindai_runtime_2026_09_25\\results\\long_ppo\\checkpoints\\racefix_mixed_hour_seed927_final_t0849702.pt",
+        "sha256": "9b68601bb5ef89b339edc160311e6ea966f010d23db0bd99293afbacf576196f"
+      },
+      {
+        "checkpoint_id": "caselene_stock_seed26101_t0500000",
+        "training_character": "ZEN",
+        "training_opponents": [
+          "Caselene"
+        ],
+        "training_regime": "stock ZEN versus Caselene, feasibility-era PPO, seed 26101, 500000 transitions",
+        "environment": "DareFightingICE 7.1 stock material",
+        "primary_stock_headroom": true,
+        "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_learnability_headroom_2026_09_26\\results\\caselene_stock_s26101\\checkpoints\\caselene_stock_s26101_t0500000.pt",
+        "sha256": "89b1682a858f73dd2b756025a1016e6c9b1bf1aa72aad44e2f4a06c54230cdb3"
+      },
+      {
+        "checkpoint_id": "monkeylink_stock_seed2601_t0265002",
+        "training_character": "ZEN",
+        "training_opponents": [
+          "MonkeyLink_TriplePM"
+        ],
+        "training_regime": "stock ZEN versus MonkeyLink_TriplePM, feasibility-era PPO stock arm, seed 2601, 265002 transitions",
+        "environment": "DareFightingICE 7.1 stock material; filename denotes the stock arm, not synthetic training",
+        "primary_stock_headroom": true,
+        "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_character_feasibility_2026_09_26\\results\\ppo_stock\\checkpoints\\synthetic_stock_seed2601_final_t0265002.pt",
+        "sha256": "a0c9bbc475385d9c83e4aead14adbeb3543f5546035be353c81e366eff7eec0f"
+      }
+    ],
+    "synthetic_trained_checkpoint_policy": "excluded from primary; none of the three primary checkpoints used synthetic-character training material"
+  },
+  "final_acceptance": {
+    "valid_round_fraction_min": 0.98,
+    "every_configuration_valid_distinct_opponents_min": 6,
+    "every_configuration_valid_both_sides": true,
+    "valid_graph_connected": true,
+    "schedule_and_input_hashes_unchanged": true,
+    "raw_trace_parse_and_hash_fraction": 1.0,
+    "failure_review": "any configuration losing >20% of its scheduled jobs or any repeated route/cell failure requires review even if aggregate thresholds pass"
+  },
+  "schema": "synthetic_functional_d5_v1",
+  "sentinels": [
+    {
+      "root": "ZEN",
+      "sentinel_class": "PARAMETRIC",
+      "variant_identity": "ZEN__PBC_TR_P_042",
+      "pool": "POOL_A",
+      "generator_family": "GS_FDDFB_DAMAGE",
+      "changed_target_count": "5",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_A;CROUCH_FA;STAND_D_DB_BB;STAND_D_DF_FB;STAND_F_D_DFB",
+      "changed_fields": "attack.HitDamage;attack.StartUp;attack.speedX;attack.speedY;frameNumber",
+      "motion_sha256": "fb0e288a379a54f1433920c0241c760d72e4bf9ffd04e6c32b35cac8681573ec",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_P_042\\Motion.csv",
+      "audit_action": "AIR_A",
+      "audit_field": "frameNumber",
+      "audit_expected_value": "19",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "ZEN",
+      "sentinel_class": "REASSIGNMENT",
+      "variant_identity": "ZEN__PBC_TR_R_076",
+      "pool": "POOL_A",
+      "generator_family": "ROLE_STRATEGIC",
+      "changed_target_count": "4",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_UA;CROUCH_A;STAND_B;STAND_FB",
+      "changed_fields": "attack.AttackType;attack.hitAreaDown;attack.hitAreaLeft;attack.hitAreaRight;attack.hitAreaUp;cancelAbleFrame;cancelAbleMotionLevel;motionLevel",
+      "motion_sha256": "da0c3b6a71b6bbccc3506919d2f8462210b086fd6fe84ddc024abc68f45d1876",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_R_076\\Motion.csv",
+      "audit_action": "AIR_UA",
+      "audit_field": "attack.AttackType",
+      "audit_expected_value": "3",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "ZEN",
+      "sentinel_class": "COMBINED",
+      "variant_identity": "ZEN__PBC_TR_C_095",
+      "pool": "POOL_A",
+      "generator_family": "GN_HIT_DAMAGE",
+      "changed_target_count": "7",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_A;AIR_B;CROUCH_FA;CROUCH_FB;STAND_A;STAND_B;STAND_FA",
+      "changed_fields": "attack.GuardDamage;attack.HitDamage;attack.ImpactX;attack.ImpactY;cancelAbleFrame;cancelAbleMotionLevel;frameNumber;motionLevel",
+      "motion_sha256": "3a97bbeaedcb3fd0b9cd0f01fe7af9181ca1c27fbf7bfc8e68a0107ba6fcb860",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_C_095\\Motion.csv",
+      "audit_action": "AIR_A",
+      "audit_field": "frameNumber",
+      "audit_expected_value": "18",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "GARNET",
+      "sentinel_class": "PARAMETRIC",
+      "variant_identity": "GARNET__PBC_TR_P_064",
+      "pool": "POOL_A",
+      "generator_family": "AIR_PROJECTILE_PARAMETRIC",
+      "changed_target_count": "5",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_D_DF_FB;AIR_UA;CROUCH_B;STAND_D_DF_FB;STAND_F_D_DFB",
+      "changed_fields": "attack.HitDamage;attack.ImpactX;attack.speedX;attack.speedY",
+      "motion_sha256": "5091bc2f6539b10960c16e2758b1bf7a635afeb592b0e1e47cc494d5e5258882",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_P_064\\Motion.csv",
+      "audit_action": "AIR_D_DF_FB",
+      "audit_field": "attack.speedX",
+      "audit_expected_value": "8",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "GARNET",
+      "sentinel_class": "REASSIGNMENT",
+      "variant_identity": "GARNET__PBC_TR_R_085",
+      "pool": "POOL_A",
+      "generator_family": "AIR_HIT_TYPE_EXT",
+      "changed_target_count": "3",
+      "changed_effective_field_rows": "7",
+      "changed_targets": "AIR_B;STAND_B;STAND_FB",
+      "changed_fields": "attack.Active;attack.AttackType;attack.HitDamage;attack.StartUp;cancelAbleFrame;cancelAbleMotionLevel;motionLevel",
+      "motion_sha256": "4fb1b570b35e8bc3df904d83b03fe8a223948bc5de4a3fc1df03647d1df8424d",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_R_085\\Motion.csv",
+      "audit_action": "AIR_B",
+      "audit_field": "attack.AttackType",
+      "audit_expected_value": "3",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "GARNET",
+      "sentinel_class": "COMBINED",
+      "variant_identity": "GARNET__PBC_TR_C_096",
+      "pool": "POOL_A",
+      "generator_family": "GN_GUARD_DAMAGE",
+      "changed_target_count": "7",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_B;AIR_DA;CROUCH_B;DASH;STAND_B;STAND_FA;STAND_FB",
+      "changed_fields": "attack.GuardDamage;attack.HitDamage;attack.ImpactX;cancelAbleFrame;cancelAbleMotionLevel;motionLevel;speedX",
+      "motion_sha256": "1ba556ca4777bd63898cffd7257c7e06f9988e3fb036ac8c9039eb3216ebc1ee",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_C_096\\Motion.csv",
+      "audit_action": "AIR_B",
+      "audit_field": "attack.HitDamage",
+      "audit_expected_value": "18",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "LUD",
+      "sentinel_class": "PARAMETRIC",
+      "variant_identity": "LUD__PBC_TR_P_051",
+      "pool": "POOL_A",
+      "generator_family": "GS_OMITTED_STARTUP_DAMAGE",
+      "changed_target_count": "5",
+      "changed_effective_field_rows": "8",
+      "changed_targets": "AIR_A;AIR_UB;CROUCH_A;STAND_D_DB_BB;STAND_D_DF_FA",
+      "changed_fields": "attack.HitDamage;attack.ImpactY;attack.StartUp;attack.speedX;attack.speedY",
+      "motion_sha256": "f889fbd71e5e162534344c2f52c6bcf9a343e77762520c28cb70630bf0793379",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_P_051\\Motion.csv",
+      "audit_action": "AIR_A",
+      "audit_field": "attack.HitDamage",
+      "audit_expected_value": "14",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "LUD",
+      "sentinel_class": "REASSIGNMENT",
+      "variant_identity": "LUD__PBC_TR_R_078",
+      "pool": "POOL_A",
+      "generator_family": "ROLE_STRATEGIC",
+      "changed_target_count": "4",
+      "changed_effective_field_rows": "7",
+      "changed_targets": "CROUCH_FB;STAND_A;STAND_B;STAND_FB",
+      "changed_fields": "attack.Active;attack.AttackType;attack.HitDamage;attack.StartUp;cancelAbleFrame;cancelAbleMotionLevel;motionLevel",
+      "motion_sha256": "8afee5cbe86347305f56d50669ff4f47693ec24ad0bc7c635bfea2251ccf06c2",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_R_078\\Motion.csv",
+      "audit_action": "CROUCH_FB",
+      "audit_field": "attack.AttackType",
+      "audit_expected_value": "1",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "LUD",
+      "sentinel_class": "COMBINED",
+      "variant_identity": "LUD__PBC_TR_C_098",
+      "pool": "POOL_A",
+      "generator_family": "GN_IMPACT_X",
+      "changed_target_count": "6",
+      "changed_effective_field_rows": "9",
+      "changed_targets": "AIR_DA;DASH;STAND_A;STAND_B;STAND_D_DB_BB;STAND_FB",
+      "changed_fields": "attack.HitDamage;attack.ImpactX;attack.StartUp;cancelAbleFrame;cancelAbleMotionLevel;motionLevel;speedX",
+      "motion_sha256": "4a3a5915e171b46852675dd590376aab5d247e33c426f39f2d9df95a9883a747",
+      "motion_path": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_C_098\\Motion.csv",
+      "audit_action": "AIR_DA",
+      "audit_field": "attack.HitDamage",
+      "audit_expected_value": "14",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_B_V2_2026_09_27\\results\\report_bundle_supplemental\\competency_subset.csv"
+    },
+    {
+      "root": "KFM",
+      "sentinel_class": "PARAMETRIC",
+      "variant_identity": "KFM__CEXT_V3_A_026",
+      "pool": "POOL_A",
+      "generator_family": "GN_IMPACT_Y",
+      "changed_target_count": "5",
+      "changed_effective_field_rows": "5",
+      "changed_targets": "AIR_UA;BACK_STEP;FORWARD_WALK;STAND_B;STAND_D_DB_BB",
+      "changed_fields": "attack.ImpactY;attack.StartUp;attack.HitDamage;speedX;speedX;frameNumber",
+      "motion_sha256": "8b7e2956f8901751d09dd47228d21225714339d7a5afcbf2fad3b880f1092b6d",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_026\\Motion.csv",
+      "audit_action": "AIR_UA",
+      "audit_field": "attack.ImpactY",
+      "audit_expected_value": "-7",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    },
+    {
+      "root": "KFM",
+      "sentinel_class": "REASSIGNMENT",
+      "variant_identity": "KFM__CEXT_V3_A_068",
+      "pool": "POOL_A",
+      "generator_family": "ROLE_CANCEL",
+      "changed_target_count": "4",
+      "changed_effective_field_rows": "4",
+      "changed_targets": "AIR_UA;CROUCH;STAND_A;STAND_B",
+      "changed_fields": "attack.AttackType;cancelAbleFrame;cancelAbleMotionLevel;motionLevel;speedX",
+      "motion_sha256": "b49da69bc9e011c48cee247d68149825bdf5ff43f319a13af7c6abfc1ad5a962",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_068\\Motion.csv",
+      "audit_action": "AIR_UA",
+      "audit_field": "attack.AttackType",
+      "audit_expected_value": "3",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    },
+    {
+      "root": "KFM",
+      "sentinel_class": "COMBINED",
+      "variant_identity": "KFM__CEXT_V3_A_088",
+      "pool": "POOL_A",
+      "generator_family": "GN_STARTUP",
+      "changed_target_count": "7",
+      "changed_effective_field_rows": "7",
+      "changed_targets": "AIR_A;AIR_UA;CROUCH_FA;CROUCH_FB;STAND_A;STAND_D_DF_FA;THROW_A",
+      "changed_fields": "attack.HitDamage;attack.ImpactX;attack.ImpactY;attack.StartUp;attack.hitAreaRight;cancelAbleFrame;cancelAbleMotionLevel;motionLevel",
+      "motion_sha256": "8e477f755eb95ac27eeb39a5bebd1c8a61b1202a3700ed476448595e0cb4d003",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_088\\Motion.csv",
+      "audit_action": "AIR_A",
+      "audit_field": "attack.ImpactX",
+      "audit_expected_value": "7",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    },
+    {
+      "root": "NEZ",
+      "sentinel_class": "PARAMETRIC",
+      "variant_identity": "NEZ__CEXT_V3_A_026",
+      "pool": "POOL_A",
+      "generator_family": "GN_IMPACT_Y",
+      "changed_target_count": "5",
+      "changed_effective_field_rows": "5",
+      "changed_targets": "CROUCH_FA;FORWARD_WALK;STAND_B;STAND_D_DB_BB;STAND_D_DF_FB",
+      "changed_fields": "attack.GuardDamage;attack.ImpactY;attack.StartUp;attack.HitDamage;attack.speedX;attack.speedY;attack.HitDamage;speedX",
+      "motion_sha256": "4c103d6cf6d911cf5fc254532cc5292632ac1d26dffd57eb86b620065233f6f7",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_026\\Motion.csv",
+      "audit_action": "CROUCH_FA",
+      "audit_field": "attack.GuardDamage",
+      "audit_expected_value": "3",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    },
+    {
+      "root": "NEZ",
+      "sentinel_class": "REASSIGNMENT",
+      "variant_identity": "NEZ__CEXT_V3_A_068",
+      "pool": "POOL_A",
+      "generator_family": "ROLE_CANCEL",
+      "changed_target_count": "4",
+      "changed_effective_field_rows": "4",
+      "changed_targets": "CROUCH;CROUCH_A;STAND_B;STAND_FB",
+      "changed_fields": "attack.hitAreaLeft;attack.hitAreaRight;attack.hitAreaUp;attack.hitAreaDown;cancelAbleFrame;cancelAbleMotionLevel;motionLevel;speedX",
+      "motion_sha256": "197b1d259dfb1cdc55e4ed0c12c6ddaedac81e1f2f29686ece8039a3de5e9ee3",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_068\\Motion.csv",
+      "audit_action": "CROUCH",
+      "audit_field": "speedX",
+      "audit_expected_value": "2",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    },
+    {
+      "root": "NEZ",
+      "sentinel_class": "COMBINED",
+      "variant_identity": "NEZ__CEXT_V3_A_092",
+      "pool": "POOL_A",
+      "generator_family": "GN_IMPACT_X",
+      "changed_target_count": "7",
+      "changed_effective_field_rows": "7",
+      "changed_targets": "BACK_STEP;CROUCH_FA;DASH;FORWARD_WALK;STAND_A;STAND_B;STAND_FB",
+      "changed_fields": "attack.ImpactX;attack.StartUp;cancelAbleFrame;cancelAbleMotionLevel;motionLevel;speedX;speedX;frameNumber",
+      "motion_sha256": "fa0523dce54b9321d3c02142e2dad2acd01517a1c1bdddeb4f7a493adc8174f3",
+      "motion_path": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_092\\Motion.csv",
+      "audit_action": "BACK_STEP",
+      "audit_field": "speedX",
+      "audit_expected_value": "-19",
+      "deterministic_selection_rationale": "max changed action targets; then max changed effective field rows; then lexicographically smallest identity",
+      "source_metadata": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_extension_C_2026_10_03\\final_generation_v4\\non_pool_c\\FINAL_MANIFEST.csv"
+    }
+  ],
+  "d_method": {
+    "reference": "Caselene; MrTwo iff focal is Caselene",
+    "physical_sides": [
+      "P1",
+      "P2"
+    ],
+    "name_mask": "BOTH historical endpoints receive base-name view; engine identity remains synthetic",
+    "activity_warning": "completed focal direct onsets <5 OR distinct direct actions <2",
+    "zero_control": "0 direct onsets and completed elapsed_frames>=120",
+    "primary_classes": [
+      "D_CASE_PASS",
+      "D_CASE_TECHNICAL_SUSPECT",
+      "D_CASE_ZERO_CONTROL_SUSPECT",
+      "D_INFORMATION_FAILURE"
+    ],
+    "adjudication": "technical/zero suspect -> exact R2 synthetic + matched stock; R3 only if R1/R2 disagree; no fourth repeat",
+    "combined_E": "upstream valid AND combined pass AND reassignment pass",
+    "splits": {
+      "PLAYABLE_CHARACTER_SPLIT": "UNDECIDED",
+      "OPPONENT_POLICY_SPLIT": "UNDECIDED"
+    },
+    "pool_boundary": "Pool A sentinels only; no Pool B/C identity, mechanics, trace, or outcome"
+  }
+}

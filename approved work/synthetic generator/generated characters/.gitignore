@@ -1,0 +1,4 @@
+# Generated experiment output stays untracked.
+*
+!.gitignore
+!README.md

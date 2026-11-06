@@ -1,0 +1,22 @@
+{
+  "version": "1.2.0",
+  "approved_date_Perth": "2026-11-05",
+  "user_authorisation": "The synthetic generator folder must contain everything project-specific and operate standalone when moved; outputs belong inside it.",
+  "release_checksum": "9e96c4865fe72dd849301f5bd5da41e99a6624dc8ea428b45f69ae3f302ff4f6",
+  "software_checks_sha256": "556a8ca127e3014fa3261eb96612f2451693e7ce855dc6cd8b56669bc857682b",
+  "portability_check_sha256": "29e1a0fad5f60bb3e857c0d5345ddae98ed5a033529f3e9bb785068591840982",
+  "software_checks": 14,
+  "bundled_Python_distributions": 7,
+  "originals_unchanged": true,
+  "new_gameplay_started": false,
+  "new_production_started": false,
+  "scientific_rules_changed": false,
+  "final_dataset_membership_decided": false,
+  "distribution_scope": "Essentials required to rerun from scratch; historical outputs and archives excluded",
+  "historical_catalogues_bundled": false,
+  "historical_report_copies_bundled": false,
+  "cleanup_authorisation": "remove those archive files; they stay untracked; approved work includes essentials needed to rerun the experiment from scratch",
+  "software_check_count": 24,
+  "default_retain_evidence": false,
+  "working_evidence_used_until_final_verification": true
+}

@@ -1,0 +1,17 @@
+{
+  "2024-AI_track-BenAI": {
+    "working_directory": "submission/Blind_AI",
+    "constructor_profile": "benai_competition",
+    "evidence": "submission/Blind_AI/README.md gives the test command --encoder mel; trained_ai/test.py supplies path='trained_model' and rnn=True, and the checkpoint dimensions match the mel encoder"
+  },
+  "2024-AI_track-KiraAI": {
+    "working_directory": ".",
+    "constructor_profile": "default",
+    "evidence": "KiraAI.py loads KirariAI/KiraAI/trained_model/DQN_model.keras, a path rooted at the unchanged submission directory"
+  },
+  "2024-AI_track-blaze": {
+    "working_directory": "blaze",
+    "constructor_profile": "default",
+    "evidence": "blaze/blaze.py loads ./model.pt and the submitted model is beside that source file"
+  }
+}

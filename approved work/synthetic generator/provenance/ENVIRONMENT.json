@@ -1,0 +1,14 @@
+{
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "packages": {
+    "psutil": "7.2.2",
+    "protobuf": "4.25.9",
+    "pyftg": "2.3",
+    "grpcio-tools": "1.62.3",
+    "setuptools": "83.0.0",
+    "grpcio": "1.62.3",
+    "numpy": "2.5.1"
+  },
+  "platform": "Windows, Java/JDK required on PATH",
+  "dependency_location": "python_lib inside this folder"
+}

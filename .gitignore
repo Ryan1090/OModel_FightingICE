@@ -3,7 +3,6 @@
 # competition submissions are unresolved. Bytes are pinned by SHA-256; see ARCHIVES.md.
 FightingICE Sources/
 past agents/
-approved work/
 
 # Python bytecode
 __pycache__/

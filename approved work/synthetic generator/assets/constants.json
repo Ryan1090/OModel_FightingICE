@@ -1,0 +1,158 @@
+{
+  "CORE": {
+    "Speed": [
+      "attack.StartUp",
+      "frameNumber"
+    ],
+    "Power": [
+      "attack.HitDamage"
+    ],
+    "Reach": [
+      "attack.hitAreaRight",
+      "speedX"
+    ],
+    "Mobility": [
+      "speedX",
+      "speedY",
+      "attack.speedY"
+    ],
+    "Pressure": [
+      "attack.GuardDamage",
+      "attack.GiveGuardRecov",
+      "attack.Active"
+    ],
+    "Resource": [
+      "attack.StartAddEnergy",
+      "attack.HitAddEnergy",
+      "attack.GuardAddEnergy",
+      "attack.GiveEnergy"
+    ]
+  },
+  "NOOPS": [
+    [
+      "KFM",
+      "AIR_DA",
+      -1
+    ],
+    [
+      "KFM",
+      "AIR_DB",
+      -1
+    ],
+    [
+      "KFM",
+      "AIR_D_DB_BB",
+      -1
+    ],
+    [
+      "KFM",
+      "AIR_FA",
+      -1
+    ],
+    [
+      "KFM",
+      "AIR_FB",
+      -1
+    ],
+    [
+      "KFM",
+      "AIR_F_D_DFA",
+      -1
+    ],
+    [
+      "KFM",
+      "STAND_D_DB_BA",
+      -1
+    ],
+    [
+      "KFM",
+      "STAND_FB",
+      -1
+    ],
+    [
+      "NEZ",
+      "AIR_D_DB_BA",
+      -1
+    ],
+    [
+      "NEZ",
+      "AIR_D_DB_BB",
+      -1
+    ],
+    [
+      "NEZ",
+      "AIR_F_D_DFA",
+      -1
+    ],
+    [
+      "ZEN",
+      "AIR_D_DB_BB",
+      -1
+    ]
+  ],
+  "FAMILY": {
+    "frameNumber": "timing",
+    "speedX": "movement",
+    "speedY": "movement",
+    "hitAreaLeft": "body_geometry",
+    "hitAreaRight": "body_geometry",
+    "hitAreaUp": "body_geometry",
+    "hitAreaDown": "body_geometry",
+    "attack.hitAreaLeft": "offensive_geometry",
+    "attack.hitAreaRight": "offensive_geometry",
+    "attack.hitAreaUp": "offensive_geometry",
+    "attack.hitAreaDown": "offensive_geometry",
+    "attack.speedX": "projectile",
+    "attack.speedY": "projectile",
+    "attack.StartUp": "timing",
+    "attack.Active": "timing",
+    "attack.HitDamage": "hit_damage",
+    "attack.GuardDamage": "guard_damage",
+    "attack.StartAddEnergy": "energy",
+    "attack.HitAddEnergy": "energy",
+    "attack.GuardAddEnergy": "energy",
+    "attack.GiveEnergy": "energy",
+    "attack.ImpactX": "impact",
+    "attack.ImpactY": "impact",
+    "attack.GiveGuardRecov": "guard_stun",
+    "attack.AttackType": "category",
+    "attack.DownProp": "knockdown",
+    "cancelAbleFrame": "cancel",
+    "cancelAbleMotionLevel": "cancel",
+    "motionLevel": "cancel"
+  },
+  "MINIMUM": {
+    "frameNumber": 3,
+    "attack.StartUp": 3,
+    "attack.Active": 3,
+    "attack.GiveGuardRecov": 3,
+    "attack.HitDamage": 5,
+    "attack.GuardDamage": 5,
+    "hitAreaLeft": 5,
+    "hitAreaRight": 5,
+    "hitAreaUp": 5,
+    "hitAreaDown": 5,
+    "attack.hitAreaLeft": 10,
+    "attack.hitAreaRight": 10,
+    "attack.hitAreaUp": 10,
+    "attack.hitAreaDown": 10,
+    "speedX": 2,
+    "speedY": 2,
+    "attack.speedX": 4,
+    "attack.speedY": 2,
+    "attack.ImpactX": 2,
+    "attack.ImpactY": 2,
+    "attack.StartAddEnergy": 5,
+    "attack.HitAddEnergy": 5,
+    "attack.GuardAddEnergy": 5,
+    "attack.GiveEnergy": 5,
+    "motionLevel": 1
+  },
+  "TRAITS": [
+    "Speed",
+    "Power",
+    "Reach",
+    "Mobility",
+    "Pressure"
+  ]
+}

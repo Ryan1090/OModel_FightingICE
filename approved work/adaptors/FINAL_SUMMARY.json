@@ -1,0 +1,65 @@
+{
+  "record_version": "FIXING-PHASE-FINAL-SUMMARY-V1",
+  "date": "2026-10-23",
+  "status": "ENGINEERING_VALIDATION_COMPLETE_WITH_REVIEW_ITEMS",
+  "scientific_scope_changed": false,
+  "research_passes_rerun": false,
+  "frozen_population_changed": false,
+  "route_pair_gate": {
+    "jobs": 72,
+    "passed": 72
+  },
+  "full_horizon_gate": {
+    "jobs": 36,
+    "passed": 36
+  },
+  "learner_population_gate": {
+    "jobs": 2718,
+    "passed": 2700,
+    "failed": 18,
+    "configurations": 453,
+    "fully_supported": 450,
+    "unresolved": 3,
+    "unresolved_configurations": [
+      "2017-competition-ZoneAI::GARNET",
+      "2017-competition-ZoneAI::LUD",
+      "2017-competition-ZoneAI::ZEN"
+    ]
+  },
+  "newly_supported_prior_route_exclusions": 83,
+  "residual_controller_interaction_exclusions": [
+    "2017-competition-ZoneAI::ZEN",
+    "2017-competition-ZoneAI::GARNET",
+    "2017-competition-ZoneAI::LUD"
+  ],
+  "engine_equivalence": "INCONCLUSIVE_METHOD_REVIEW_REQUIRED",
+  "standard_engine": "NOT_ADOPTED",
+  "raw_evidence_backup": {
+    "state": "PAUSED_BY_USER",
+    "files_done": 536250,
+    "files_total": 865868,
+    "bytes_done": 28412321196,
+    "bytes_total": 47183640221,
+    "bytes_remaining": 18771319025,
+    "checkpoint": "D:\\fightICE\\ai agent work\\tools\\project_fixing_phase_2026_10_21\\raw_evidence_backup_v1\\backup_status.json",
+    "originals_deleted": false
+  },
+  "review_items": [
+    "redesign engine-build equivalence method before adopting a universal build",
+    "decide future learner-experiment treatment for the three ZoneAI route cells without modifying historical policy automatically",
+    "authorize or leave paused the remaining raw-evidence copy-and-hash workload",
+    "decide whether full-horizon historical route-pair throughput measurement is needed beyond the completed 600-frame route gate",
+    "retain deferred authority over B5, Pool C, splits, datasets, model architectures and M5"
+  ],
+  "primary_handoff": "D:\\fightICE\\ai agent work\\tools\\project_fixing_phase_2026_10_21\\report_bundle\\FINAL_HANDOFF.md",
+  "eligibility_workbook": {
+    "path": "D:\\fightICE\\ai agent work\\tools\\project_fixing_phase_2026_10_21\\report_bundle\\ELIGIBILITY_MATRICES_V2.xlsx",
+    "bytes": 595406,
+    "sha256": "84efa3d11531f7cab9a790c3362136546e82296f4f0de96bdf3ef42ad8406159"
+  },
+  "final_validation": {
+    "path": "D:\\fightICE\\ai agent work\\tools\\project_fixing_phase_2026_10_21\\results\\final_validation\\FINAL_VALIDATION_SUMMARY.json",
+    "bytes": 3243,
+    "sha256": "6ca9cfe3333352685e0cbfe8db82f295a1e1dad38d6aa62415a375752c99a017"
+  }
+}

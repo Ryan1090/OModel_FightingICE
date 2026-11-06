@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "run_id": "catalogue_001",
+  "workers": 8,
+  "retain_evidence": false,
+  "output_directory": "generated characters/catalogue_001",
+  "quotas_per_root": {
+    "A": 60,
+    "B": 10,
+    "C_iid": 20,
+    "C_near": 16,
+    "C_far": 20
+  },
+  "ranges": {
+    "far_primary": [
+      0.65,
+      1.0
+    ],
+    "other_background": [
+      0.15,
+      0.25
+    ],
+    "primary": [
+      0.35,
+      0.5
+    ],
+    "reserved_partner_background": [
+      0.1,
+      0.15
+    ],
+    "secondary": [
+      0.2,
+      0.3
+    ],
+    "secondary_gap": 0.05
+  },
+  "stops": {
+    "pool_minimum_acceptance": {
+      "A": 0.5,
+      "B": 0.5,
+      "C_iid": 0.5,
+      "C_near": 0.5,
+      "C_far": null
+    },
+    "minimum_completed_per_pool": 10,
+    "minimum_completed_forecast": 50,
+    "forecast_minimum_seconds": 900,
+    "forecast_minimum_decisions": 6,
+    "projection_limit_seconds": 172800,
+    "max_draws_per_slot": 4096
+  }
+}

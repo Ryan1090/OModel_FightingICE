@@ -1,0 +1,141 @@
+{
+  "D": 0.5429023447873811,
+  "authority": "V23 follow-up final exemptions and >=90% spread; all other rules unchanged. Implement and ten diagnostics only; never catalogue.",
+  "categorical_probability": "clamp((abs(raw driver)-.10)/.40,0,1), per-move seeded draw; unchanged driver/sign/link rules",
+  "common_floor_k": 0.8,
+  "diagnostic_namespace": "diagnostic-v24-final-20261102",
+  "directional_multipliers": [
+    [
+      1.5479136413002903,
+      2.700134412135954
+    ],
+    [
+      1.778919892687325,
+      0.9294897951632243
+    ],
+    [
+      2.0444008633067985,
+      0.8087884897442402
+    ],
+    [
+      1.5479136413002903,
+      1.5479136413002903
+    ],
+    [
+      1.6213742903261483,
+      0.8471718502858179
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "equalisation_T": 0.28904467586648797,
+  "final_gate_result_sha256": "4d2092a21c14e6affb17e013499afa9584a8dbe564e6138ffaf37e0ffc508bc5",
+  "final_spread_exemptions": [
+    "counterfactual derived-link no-op pruning",
+    "cross-field move-invariant restoration",
+    "explicit engine/domain lower-span exception",
+    "known move no-op exclusion"
+  ],
+  "floors": {
+    "far_AB": 0.21716093791495245,
+    "iid_near_AB": 0.10858046895747622,
+    "stock": 0.21716093791495245,
+    "within": 0.06514828137448572
+  },
+  "minimum_S": {
+    "attack.Active": 3,
+    "attack.GiveEnergy": 5,
+    "attack.GiveGuardRecov": 3,
+    "attack.GuardAddEnergy": 5,
+    "attack.GuardDamage": 5,
+    "attack.HitAddEnergy": 5,
+    "attack.HitDamage": 5,
+    "attack.ImpactX": 2,
+    "attack.ImpactY": 2,
+    "attack.StartAddEnergy": 5,
+    "attack.StartUp": 3,
+    "attack.hitAreaDown": 10,
+    "attack.hitAreaLeft": 10,
+    "attack.hitAreaRight": 10,
+    "attack.hitAreaUp": 10,
+    "attack.speedX": 4,
+    "attack.speedY": 2,
+    "frameNumber": 3,
+    "hitAreaDown": 5,
+    "hitAreaLeft": 5,
+    "hitAreaRight": 5,
+    "hitAreaUp": 5,
+    "motionLevel": 1,
+    "speedX": 2,
+    "speedY": 2
+  },
+  "minimum_step": "One integer in summed-signal sign only if valid; nearest ties away; .25S/.25signal noise cap; no-op/guard-stun/role safeguards unchanged.",
+  "numeric_directions": "V23 both signs on existing eligible numeric cells, subject to unchanged hard/move bounds and no-op exclusions; operators unchanged.",
+  "per_probe_timeout_retry_limit": 1,
+  "production_namespace": "production-v24-final-20261102-NOT_AUTHORISED",
+  "production_write_enabled": false,
+  "quotas_per_root": {
+    "A": 60,
+    "B": 10,
+    "C_far": 20,
+    "C_iid": 20,
+    "C_near": 16
+  },
+  "ranges": {
+    "far_primary": [
+      0.65,
+      1.0
+    ],
+    "other_background": [
+      0.15,
+      0.25
+    ],
+    "primary": [
+      0.35,
+      0.5
+    ],
+    "reserved_partner_background": [
+      0.1,
+      0.15
+    ],
+    "secondary": [
+      0.2,
+      0.3
+    ],
+    "secondary_gap": 0.05
+  },
+  "reference_scope": "Virtual construction-only V23 A60/B10 for two far diagnostics; not gameplay-admitted Pool A/B; generated in memory, no C archives opened.",
+  "repair": "Selected genuine failures: up to3 fixed-trait noise redraws, then revert. Unresolved selected cells: revert. Rescreen final complete table. >=70% initial primary core, identified roles/signs, >=80% property coverage, stock/far distances and criteria required.",
+  "reserved_pairs": [
+    [
+      "Speed",
+      "Power"
+    ],
+    [
+      "Reach",
+      "Mobility"
+    ]
+  ],
+  "roots": [
+    "ZEN",
+    "GARNET",
+    "LUD",
+    "KFM",
+    "NEZ"
+  ],
+  "same_input_timeout_retry_limit": 0,
+  "screen_hard_cap_seconds": 150,
+  "screen_target_seconds": 100,
+  "spread_threshold": 0.9,
+  "traits": [
+    "Speed",
+    "Power",
+    "Reach",
+    "Mobility",
+    "Pressure"
+  ],
+  "version": 24,
+  "configuration_sha256": "6b4fc7698a424906d4a0b19eef8bcfe6d255ce6df22842e1644f25bc455cfc6b"
+}

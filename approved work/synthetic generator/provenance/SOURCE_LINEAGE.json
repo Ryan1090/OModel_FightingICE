@@ -1,0 +1,431 @@
+{
+  "assets/ALL_MAIN_EFFECT_CELLS.csv": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v23_numeric_directions\\ALL_MAIN_EFFECT_CELLS.csv",
+    "sha256": "83792ed69a2ab69a5fd347a67c71c99ebe9f863e6159d425184fe60d48152747",
+    "release_file_sha256": "83792ed69a2ab69a5fd347a67c71c99ebe9f863e6159d425184fe60d48152747",
+    "relationship": "unchanged bytes"
+  },
+  "assets/FINAL_EXEMPTIONS_AND_MISSES_COMPLETE.csv": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v24_final_gate\\FINAL_EXEMPTIONS_AND_MISSES_COMPLETE.csv",
+    "sha256": "ffd0edda36b8b1c43216b31385880711b15f2df3392fbf1a46ba6d69fe45c393",
+    "release_file_sha256": "ffd0edda36b8b1c43216b31385880711b15f2df3392fbf1a46ba6d69fe45c393",
+    "relationship": "unchanged bytes"
+  },
+  "functions:review_calibration.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\review_calibration.py",
+    "sha256": "0a1f626d4d4982c485631648d1b31e39c35ce952646647558747dffa05ce9d6c",
+    "functions": [
+      "feature"
+    ]
+  },
+  "functions:review_calibration_v2.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\review_calibration_v2.py",
+    "sha256": "a6153491ee1690219ff2b8addb971557877bcbc8afae14195591f9e157c1b4cd",
+    "functions": [
+      "graph"
+    ]
+  },
+  "functions:construction_v3.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\construction_v3.py",
+    "sha256": "d49b1f34b46289892c8f821ef544f85cffd554c4ab0e85d908174d01e917ee42",
+    "functions": [
+      "edits",
+      "core_score"
+    ]
+  },
+  "functions:stock_distance_v17/metric_v17.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\stock_distance_v17\\metric_v17.py",
+    "sha256": "1816577aa4c0e14f19c3c3accc002b7758c221d673328c31a2f7c39241468e0f",
+    "functions": [
+      "weights",
+      "descriptor_multiplier"
+    ]
+  },
+  "functions:fast_v16/bank_v8.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\bank_v8.py",
+    "sha256": "fa1a0d31ada3cf859748d3069b1460bdc62162899f6bf53a89323b775dfd76e3",
+    "functions": [
+      "trim_far"
+    ]
+  },
+  "functions:final_design_v13_r1/verify_paper.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\final_design_v13_r1\\verify_paper.py",
+    "sha256": "8b4a2797d3d1d113ab49abedf2b8d4dc5e9dd6338b7d284f6f9bd8892e29642f",
+    "functions": [
+      "full_qualification"
+    ]
+  },
+  "functions:full_design_v20_paper/model.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\full_design_v20_paper\\model.py",
+    "sha256": "3a33088c0765dc6219e2eacaa85a987406d12bd9065c9524de909e4e46c178ea",
+    "functions": [
+      "construct"
+    ]
+  },
+  "src/gmtv/__init__.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\__init__.py",
+    "sha256": "e95c3ef65f541aa0b663fa936c82462fce0fe9624e252349020ecb8629034b55",
+    "release_file_sha256": "e95c3ef65f541aa0b663fa936c82462fce0fe9624e252349020ecb8629034b55",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/api.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\api.py",
+    "sha256": "b7fe9df5a8a7e509b3106b8203e7e8f06761399d909f6bdfd1a7f0e9e480661e",
+    "release_file_sha256": "b7fe9df5a8a7e509b3106b8203e7e8f06761399d909f6bdfd1a7f0e9e480661e",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/assessment.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\assessment.py",
+    "sha256": "e5497b7bb6a8bee2751448f7bef70bc843722795deae75557876c9204de67b70",
+    "release_file_sha256": "e5497b7bb6a8bee2751448f7bef70bc843722795deae75557876c9204de67b70",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/cancel_evidence.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\cancel_evidence.py",
+    "sha256": "4fa9080e42168057ab8a533f166229c94eabb692a7ea97199ff83b64fb0a8731",
+    "release_file_sha256": "4fa9080e42168057ab8a533f166229c94eabb692a7ea97199ff83b64fb0a8731",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/construct.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\construct.py",
+    "sha256": "2aca3f29453e845953f42e1dd374a454a64e35eac5d8e88084d0d76ddcf290be",
+    "release_file_sha256": "2aca3f29453e845953f42e1dd374a454a64e35eac5d8e88084d0d76ddcf290be",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/driver.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\driver.py",
+    "sha256": "cb2f29038d8070f8edee1785de07d19c6afdb4eeeb6d8ea09d6553a68c3335aa",
+    "release_file_sha256": "cb2f29038d8070f8edee1785de07d19c6afdb4eeeb6d8ea09d6553a68c3335aa",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/energy_setup.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\energy_setup.py",
+    "sha256": "77a08220917d89584ccb72f31c380fe254112e3b26ced060cdc18c47a80389f5",
+    "release_file_sha256": "77a08220917d89584ccb72f31c380fe254112e3b26ced060cdc18c47a80389f5",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/engine.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\engine.py",
+    "sha256": "e851e37fb2e31fd22caaea7005c06002a1bb65eaf8c97ff511f13f4c39169975",
+    "release_file_sha256": "e851e37fb2e31fd22caaea7005c06002a1bb65eaf8c97ff511f13f4c39169975",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/execution.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\execution.py",
+    "sha256": "0e293c98187adf2f32f0fa76d514f034e5323bd86dbf6f06679d07d39cf6e393",
+    "release_file_sha256": "0e293c98187adf2f32f0fa76d514f034e5323bd86dbf6f06679d07d39cf6e393",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/expectations.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\expectations.py",
+    "sha256": "a64fb6559cadc918360019fdddc3526fbbb1381a78c5ad5281fd8715f5b4e7f5",
+    "release_file_sha256": "a64fb6559cadc918360019fdddc3526fbbb1381a78c5ad5281fd8715f5b4e7f5",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/fast.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\fast.py",
+    "sha256": "338184819ae72f2a542415b6494dbf7c205f3d3d77141ef4284848841266812a",
+    "release_file_sha256": "338184819ae72f2a542415b6494dbf7c205f3d3d77141ef4284848841266812a",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/fingerprint.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\fingerprint.py",
+    "sha256": "636270bba482759ad3607810bbb3969a9b7e7917eaae3b8ad8e107e221525efb",
+    "release_file_sha256": "636270bba482759ad3607810bbb3969a9b7e7917eaae3b8ad8e107e221525efb",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/geometry.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\geometry.py",
+    "sha256": "6a4207a67b79bb2d703c8efa73cc2c622001eaef95d7fb8e9bd3a95641aca408",
+    "release_file_sha256": "6a4207a67b79bb2d703c8efa73cc2c622001eaef95d7fb8e9bd3a95641aca408",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/integrity.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\integrity.py",
+    "sha256": "aae00e2f8e77e48229d69289016c939c2536933858e190aab18b5f06dc55d0cb",
+    "release_file_sha256": "aae00e2f8e77e48229d69289016c939c2536933858e190aab18b5f06dc55d0cb",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/kinematics.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\kinematics.py",
+    "sha256": "7d6dfa7b6026497392d45a2f7f4b333f8b496c585f65910327cd82689434afc9",
+    "release_file_sha256": "7d6dfa7b6026497392d45a2f7f4b333f8b496c585f65910327cd82689434afc9",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/materialise.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\materialise.py",
+    "sha256": "860b7c2bdc585aba0403efeddcab2c7efbd33316873b58dde9d25501b2976cbd",
+    "release_file_sha256": "860b7c2bdc585aba0403efeddcab2c7efbd33316873b58dde9d25501b2976cbd",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/measure.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\measure.py",
+    "sha256": "e3fffb9d164e4577326b97660c57f846a61b67cf556e656837f371909289f459",
+    "release_file_sha256": "e3fffb9d164e4577326b97660c57f846a61b67cf556e656837f371909289f459",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/oracle.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\oracle.py",
+    "sha256": "6f346b556215620cb44cec8e61325cfbdf93228a1da8ec6fa3c9431c93aa547f",
+    "release_file_sha256": "6f346b556215620cb44cec8e61325cfbdf93228a1da8ec6fa3c9431c93aa547f",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/planning.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\planning.py",
+    "sha256": "ef724539d6dd63156eb58e773d6b7519c3300572b2e0e4f8b07e059b8ce409f5",
+    "release_file_sha256": "ef724539d6dd63156eb58e773d6b7519c3300572b2e0e4f8b07e059b8ce409f5",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/probe.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\probe.py",
+    "sha256": "4199543190abd9cb5fb0904c28776258dd1d7a3fc6e3fe1358b003c32eb39a41",
+    "release_file_sha256": "4199543190abd9cb5fb0904c28776258dd1d7a3fc6e3fe1358b003c32eb39a41",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/rules.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\rules.py",
+    "sha256": "ee67172b95aa07c92ef209a7f62ddb6001e74aafdd81bc3a98f0d4f528c15be9",
+    "release_file_sha256": "ee67172b95aa07c92ef209a7f62ddb6001e74aafdd81bc3a98f0d4f528c15be9",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/schema.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\schema.py",
+    "sha256": "40f38cbeee1cef0da9b9f96565dec3aecabc4e330b173a67bba5995f3881fcaf",
+    "release_file_sha256": "40f38cbeee1cef0da9b9f96565dec3aecabc4e330b173a67bba5995f3881fcaf",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/screening.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\screening.py",
+    "sha256": "bdd73eb151c3eb196fd01c8a72b0371469ba1b00d9a67a590a11ac8edd6740bb",
+    "release_file_sha256": "bdd73eb151c3eb196fd01c8a72b0371469ba1b00d9a67a590a11ac8edd6740bb",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/staging.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\staging.py",
+    "sha256": "8ee434e2ff09755826358987043f744fde5a65733f220febf0f832f2edc8c00e",
+    "release_file_sha256": "8ee434e2ff09755826358987043f744fde5a65733f220febf0f832f2edc8c00e",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/status.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\status.py",
+    "sha256": "f935af6661b2ef1e975996c3b05be55524edeab540dbfd769525547cb6e23a02",
+    "release_file_sha256": "f935af6661b2ef1e975996c3b05be55524edeab540dbfd769525547cb6e23a02",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/stock_inputs.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\stock_inputs.py",
+    "sha256": "f48b91e3ede9ecffd32565fe93be7e708e5ca9892378c4b1d79151790ddba68f",
+    "release_file_sha256": "f48b91e3ede9ecffd32565fe93be7e708e5ca9892378c4b1d79151790ddba68f",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/stock_refinement.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\stock_refinement.py",
+    "sha256": "1870ddcdb40ed49a229a062fbf0a1b251ae64cd80bc9c87a17e766b7f05920e2",
+    "release_file_sha256": "1870ddcdb40ed49a229a062fbf0a1b251ae64cd80bc9c87a17e766b7f05920e2",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/storage.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\storage.py",
+    "sha256": "dac74c094fa2b26b3d704562b61e958434e50260b0bf2cb71e4238b060fe4e7d",
+    "release_file_sha256": "dac74c094fa2b26b3d704562b61e958434e50260b0bf2cb71e4238b060fe4e7d",
+    "relationship": "unchanged bytes"
+  },
+  "src/gmtv/tolerances.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\gmtv\\tolerances.py",
+    "sha256": "8db6ef799acecdc72086cb52363cc176df8560de6599f9cb025a29dafbbd726e",
+    "release_file_sha256": "8db6ef799acecdc72086cb52363cc176df8560de6599f9cb025a29dafbbd726e",
+    "relationship": "unchanged bytes"
+  },
+  "src/engine_evidence/CommandOracle.java": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\general_move_table_validator_2026_10_28\\engine_evidence\\CommandOracle.java",
+    "sha256": "6715420b77bd3ae4f87942d8118dbe000327c0f803e65c33d1f032a57eddde5b",
+    "release_file_sha256": "6715420b77bd3ae4f87942d8118dbe000327c0f803e65c33d1f032a57eddde5b",
+    "relationship": "unchanged bytes"
+  },
+  "src/selection_v8.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\selection_v8.py",
+    "sha256": "b88072b23bb33f7a00ddb173e132071807356286d395bfe437d8a2658483d32a",
+    "release_file_sha256": "b88072b23bb33f7a00ddb173e132071807356286d395bfe437d8a2658483d32a",
+    "relationship": "unchanged bytes"
+  },
+  "src/execution_v14.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\execution_v14.py",
+    "sha256": "d71ee9910dec3b52a38786d184675e58374518e25c020e86ce2120ff346769dc",
+    "release_file_sha256": "f87e79e02f2092a24c8b13748109946c4c681bd28963517fda6df5ad53c014c0",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/early_probe.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\early_probe.py",
+    "sha256": "ce297687e951be144bd03deaedf9b82ddacad047d7c3d2ac3d78914fc46c973e",
+    "release_file_sha256": "ce297687e951be144bd03deaedf9b82ddacad047d7c3d2ac3d78914fc46c973e",
+    "relationship": "unchanged bytes"
+  },
+  "src/dependencies.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\dependencies.py",
+    "sha256": "819adba9b6988d5a7c9407c712296a87a8c00825768c52bf6c29c002ddc7fdfe",
+    "release_file_sha256": "819adba9b6988d5a7c9407c712296a87a8c00825768c52bf6c29c002ddc7fdfe",
+    "relationship": "unchanged bytes"
+  },
+  "src/probe_retry.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\fast_v16\\probe_retry.py",
+    "sha256": "b1a09f384b3181b2382c367885fc73d3f40520b8b65a17c73a14d934603061a6",
+    "release_file_sha256": "b1a09f384b3181b2382c367885fc73d3f40520b8b65a17c73a14d934603061a6",
+    "relationship": "unchanged bytes"
+  },
+  "src/resolution_selection.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\followup_v27\\resolution_selection.py",
+    "sha256": "7d69e89144d5101b9d6dfc1668d3541caf8a5fb6c2d2ee4f9b40055c4a98448f",
+    "release_file_sha256": "7d69e89144d5101b9d6dfc1668d3541caf8a5fb6c2d2ee4f9b40055c4a98448f",
+    "relationship": "unchanged bytes"
+  },
+  "src/reach_witness.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\reach_v41\\witness.py",
+    "sha256": "13cca7904ca9b01495e92404b6f8433d772ea9bbc24586dd9b9976df14ab90ed",
+    "release_file_sha256": "13cca7904ca9b01495e92404b6f8433d772ea9bbc24586dd9b9976df14ab90ed",
+    "relationship": "unchanged bytes"
+  },
+  "src/transport_readiness.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\transport_readiness.py",
+    "sha256": "8da3851710e101a19fd8dfd6057dd7cf0526859fb6666cf287ce2f460d879c16",
+    "release_file_sha256": "a80da5ca3cc576ea18f37b4e9808f994890834cfd20d869de61f9322eb65c9ca",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/oracle_cache.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\compiled_v33\\oracle_cache.py",
+    "sha256": "f45e2d8d5ce587f1f1c753d49f93dbfec87fa41262891c79780c948a2952dfff",
+    "release_file_sha256": "f45e2d8d5ce587f1f1c753d49f93dbfec87fa41262891c79780c948a2952dfff",
+    "relationship": "unchanged bytes"
+  },
+  "src/resources.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\compiled_v33\\resources.py",
+    "sha256": "bc413d25c667e86b670db00ef311ab48f533b9ae4e9473b43d66c57415e940c9",
+    "release_file_sha256": "bc413d25c667e86b670db00ef311ab48f533b9ae4e9473b43d66c57415e940c9",
+    "relationship": "unchanged bytes"
+  },
+  "src/catalogue.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\catalogue.py",
+    "sha256": "7c8e60149cb6f4f58607c1f156ee1c035d8030d179c8c53d6ddfa3455af5fc29",
+    "release_file_sha256": "7d41c1aa89bf5b57261ea8368cc4c039a4910bdccfcc094070564a9ae11cb657",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/policy.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\policy.py",
+    "sha256": "27d53c4e7f6530040ffb7af2d3cf07a7f87bc3416eb9ea6a88cf5e6715dbe98e",
+    "release_file_sha256": "5cf5ad7d5d8c8483dee8017ad931211ca4a7a6250815eaf66b1e1e494b597161",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/worker.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\worker.py",
+    "sha256": "b8933bc0c531ddb4e28ba1e3090f4129d7bb4a6c1fdefd44569aee3ebca5d198",
+    "release_file_sha256": "6e49dd7dcbdf45f3fd394b2148cf12ca5ce6de8c45f80dc4a3e083119e2ac03e",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/sealed_store.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\sealed_store.py",
+    "sha256": "8dde3d4e13bc0a019aef8b19db9a26c84b73588f32373320c2e3ab5b85866518",
+    "release_file_sha256": "8dde3d4e13bc0a019aef8b19db9a26c84b73588f32373320c2e3ab5b85866518",
+    "relationship": "unchanged bytes"
+  },
+  "src/final_verify.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\final_verify.py",
+    "sha256": "1fb1ddd58e2cb9c610e2f3d6aa983de1d658f58cb9dfe0c3fc0f1a8ec2b9ebc6",
+    "release_file_sha256": "ee4c0b7e3bf2975928ebaf447e2d05a4bafade7cb5c4e46fdaadf6f15ab57bc3",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/admission_r4.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\admission_r4.py",
+    "sha256": "a611290f7fac4f0bb4546432fe2c1ae7734eb5edbf82f73f7751917f3e1f2952",
+    "release_file_sha256": "226d0be47b0a2b70737c7c10ea30bf93db32392ec089086227406994825bc2cc",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "src/forecast_window_v31.py": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\production_v28\\forecast_window_v31.py",
+    "sha256": "c7dd63da95db61baa28959302806ab34333fdeb8ab0ff4617d106f85bb5072c7",
+    "release_file_sha256": "1b0d10ee9d5d3c1a563633853c107233b6523860b14470a1a688dcf5413e927e",
+    "relationship": "engineering adaptation; see ENGINEERING_CHANGES.md"
+  },
+  "assets/stock_reference/ZEN/Motion.csv": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\ZEN\\Motion.csv",
+    "sha256": "49bfe1dcbb669481b434418f2ba6890688922302f556073ad33f0539bf71c800",
+    "release_file_sha256": "49bfe1dcbb669481b434418f2ba6890688922302f556073ad33f0539bf71c800",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/ZEN/gSetting.txt": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\ZEN\\gSetting.txt",
+    "sha256": "bae5b37d64ddd80c149eeae969903c9a97a0b262ff635263275b3ae31bc2c30a",
+    "release_file_sha256": "bae5b37d64ddd80c149eeae969903c9a97a0b262ff635263275b3ae31bc2c30a",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/GARNET/Motion.csv": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\GARNET\\Motion.csv",
+    "sha256": "f825dd81abfd6d273ce7190bf156faea7de609adf75511b8485fcd1b8fa9102e",
+    "release_file_sha256": "f825dd81abfd6d273ce7190bf156faea7de609adf75511b8485fcd1b8fa9102e",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/GARNET/gSetting.txt": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\GARNET\\gSetting.txt",
+    "sha256": "9045ff12cb28405502257599e29ec8336f6b6a64645f7aac7fd65dc15a2987c9",
+    "release_file_sha256": "9045ff12cb28405502257599e29ec8336f6b6a64645f7aac7fd65dc15a2987c9",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/LUD/Motion.csv": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\LUD\\Motion.csv",
+    "sha256": "6d3136cdefefae2417502ae25ece08ecdac4db74386e232efb31475054400de5",
+    "release_file_sha256": "6d3136cdefefae2417502ae25ece08ecdac4db74386e232efb31475054400de5",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/LUD/gSetting.txt": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\LUD\\gSetting.txt",
+    "sha256": "9045ff12cb28405502257599e29ec8336f6b6a64645f7aac7fd65dc15a2987c9",
+    "release_file_sha256": "9045ff12cb28405502257599e29ec8336f6b6a64645f7aac7fd65dc15a2987c9",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/KFM/Motion.csv": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\KFM\\Motion.csv",
+    "sha256": "aeb524f6070e7f705376c76f67ec13951ca4909781e380107e8345c2432eff65",
+    "release_file_sha256": "aeb524f6070e7f705376c76f67ec13951ca4909781e380107e8345c2432eff65",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/KFM/gSetting.txt": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\KFM\\gSetting.txt",
+    "sha256": "ddc2f6c98d60f124aa3112ed33e09148229052aa36be8161344cf3cb01232990",
+    "release_file_sha256": "ddc2f6c98d60f124aa3112ed33e09148229052aa36be8161344cf3cb01232990",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/NEZ/Motion.csv": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\NEZ\\Motion.csv",
+    "sha256": "e9afadf05bb3cb5000d266e09bd75053c32851f7f12d2df05db28dd690014276",
+    "release_file_sha256": "e9afadf05bb3cb5000d266e09bd75053c32851f7f12d2df05db28dd690014276",
+    "relationship": "unchanged bytes"
+  },
+  "assets/stock_reference/NEZ/gSetting.txt": {
+    "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\general_move_table_validator_2026_10_28\\parallel_workers\\worker_00\\stock_reference\\NEZ\\gSetting.txt",
+    "sha256": "bae5b37d64ddd80c149eeae969903c9a97a0b262ff635263275b3ae31bc2c30a",
+    "release_file_sha256": "bae5b37d64ddd80c149eeae969903c9a97a0b262ff635263275b3ae31bc2c30a",
+    "relationship": "unchanged bytes"
+  },
+  "provenance/v24_final_gate_GENERATOR_CONFIG.json": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v24_final_gate\\GENERATOR_CONFIG.json",
+    "sha256": "1fba91ecb0300aff98ab4202848fb8e9049d029a9a25fb71da21ca5e0aa566a9",
+    "release_file_sha256": "1fba91ecb0300aff98ab4202848fb8e9049d029a9a25fb71da21ca5e0aa566a9",
+    "relationship": "unchanged bytes"
+  },
+  "provenance/v41_reach_fix_VALIDATION_GATE.json": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v41_reach_fix\\VALIDATION_GATE.json",
+    "sha256": "8f353c55d849a61cb9c5a188665fdc256d8c3d2b0838483d1e43b65988fc7f87",
+    "release_file_sha256": "8f353c55d849a61cb9c5a188665fdc256d8c3d2b0838483d1e43b65988fc7f87",
+    "relationship": "unchanged bytes"
+  },
+  "provenance/v41_reach_fix_SUMMARY.json": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v41_reach_fix\\SUMMARY.json",
+    "sha256": "95ddf216280f2a62f2b8de6e58f39ef5506a198c3b880833e6ea7ac61b023d50",
+    "release_file_sha256": "95ddf216280f2a62f2b8de6e58f39ef5506a198c3b880833e6ea7ac61b023d50",
+    "relationship": "unchanged bytes"
+  },
+  "provenance/v42_generation_report_REPORT.md": {
+    "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_generator_trait_review_2026_10_31\\report_bundle\\v42_generation_report\\REPORT.md",
+    "sha256": "0c83ca0fcc8a1ae94d8360ce959ca93513e6e1ab1eaaa34a704d7ac62bebcf9f",
+    "release_file_sha256": "0c83ca0fcc8a1ae94d8360ce959ca93513e6e1ab1eaaa34a704d7ac62bebcf9f",
+    "relationship": "unchanged bytes"
+  }
+}

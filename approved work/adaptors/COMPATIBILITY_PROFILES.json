@@ -1,0 +1,25 @@
+{
+  "schema": "fixing-phase-route-compatibility-profiles-v1",
+  "purpose": "Data-driven reproduction of already-validated dependency/runtime environments; no agent policy edits",
+  "python_interpreters": {
+    "default": "D:\\fightICE\\.venv\\Scripts\\python.exe",
+    "2023-AI_track-CAS": "C:\\Users\\Ryanm\\OneDrive\\Documents\\fightICE\\stock_competency_B_2026_09_30_hot\\cas_runtime_py310\\Scripts\\python.exe",
+    "2023-AI_track-KS": "C:\\Users\\Ryanm\\OneDrive\\Documents\\fightICE\\stock_competency_B_2026_09_30_hot\\ks_runtime_py312\\Scripts\\python.exe",
+    "2024-AI_track-KiraAI": "C:\\Users\\Ryanm\\OneDrive\\Documents\\fightICE\\stock_competency_B_2026_09_30_hot\\kira_runtime_py312\\Scripts\\python.exe"
+  },
+  "java_profiles": {
+    "2016-competition-Poring": {
+      "append_entry_from_jar": {
+        "source": "D:\\fightICE\\ai agent work\\tools\\stock_competency_A_2026_09_30\\contract\\PoringNodeSupport.jar",
+        "entry": "Node.class"
+      }
+    },
+    "2017-competition-MogakuMono": {
+      "copy_glob_to_ai_data": "MogakuMono/*_weigthsP*.ser"
+    },
+    "2015-external-HAL": {
+      "primary_override": "D:\\fightICE\\ai agent work\\tools\\external_agent_triage_2026_09_25\\sources\\hal\\HAL.jar"
+    }
+  },
+  "interpretation": "Profiles encode archived dependency location and validated adapter packaging only. They may not change decisions, actions, weights, or controller source."
+}

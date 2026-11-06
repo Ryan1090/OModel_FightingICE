@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "relocated_preflight": {
+    "passed": true,
+    "total": 630,
+    "quotas_per_root": {
+      "A": 60,
+      "B": 10,
+      "C_iid": 20,
+      "C_near": 16,
+      "C_far": 20
+    },
+    "output": "D:\\fightICE\\ai agent work\\tools\\standalone_generator_20261105\\relocated_check\\independent generator\\generated characters\\catalogue_001",
+    "gameplay_calls": 0,
+    "candidate_writes": 0
+  },
+  "bare_python": true,
+  "site_packages_disabled": true,
+  "working_directory_outside_generator": true,
+  "runtime_dependency_on_ai_agent_work": false,
+  "gameplay_calls": 0,
+  "copy_mode": "Independent hard-linked files, no directory junctions; no dataset or archive access required"
+}

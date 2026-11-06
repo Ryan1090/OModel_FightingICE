@@ -1,0 +1,92 @@
+{
+  "workers": 8,
+  "runtime_root": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_functional_D5_2026_10_04\\runtimes",
+  "template": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\stock_competency_A5_extension_2026_10_03_v2\\runtimes\\worker_0",
+  "engine": {
+    "path": "D:\\fightICE\\ai agent work\\tools\\synthetic_functional_D5_2026_10_04\\work\\FightingICE.d5.audit.jar",
+    "sha256": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635"
+  },
+  "characters": {
+    "GARNET": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET",
+      "motion_sha256": "f825dd81abfd6d273ce7190bf156faea7de609adf75511b8485fcd1b8fa9102e"
+    },
+    "GARNET__PBC_TR_C_096": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_C_096",
+      "motion_sha256": "1ba556ca4777bd63898cffd7257c7e06f9988e3fb036ac8c9039eb3216ebc1ee"
+    },
+    "GARNET__PBC_TR_P_064": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_P_064",
+      "motion_sha256": "5091bc2f6539b10960c16e2758b1bf7a635afeb592b0e1e47cc494d5e5258882"
+    },
+    "GARNET__PBC_TR_R_085": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\GARNET__PBC_TR_R_085",
+      "motion_sha256": "4fb1b570b35e8bc3df904d83b03fe8a223948bc5de4a3fc1df03647d1df8424d"
+    },
+    "KFM": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\runtimes\\worker_0\\data\\characters\\KFM",
+      "motion_sha256": "aeb524f6070e7f705376c76f67ec13951ca4909781e380107e8345c2432eff65"
+    },
+    "KFM__CEXT_V3_A_026": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_026",
+      "motion_sha256": "8b7e2956f8901751d09dd47228d21225714339d7a5afcbf2fad3b880f1092b6d"
+    },
+    "KFM__CEXT_V3_A_068": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_068",
+      "motion_sha256": "b49da69bc9e011c48cee247d68149825bdf5ff43f319a13af7c6abfc1ad5a962"
+    },
+    "KFM__CEXT_V3_A_088": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\KFM__CEXT_V3_A_088",
+      "motion_sha256": "8e477f755eb95ac27eeb39a5bebd1c8a61b1202a3700ed476448595e0cb4d003"
+    },
+    "LUD": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD",
+      "motion_sha256": "6d3136cdefefae2417502ae25ece08ecdac4db74386e232efb31475054400de5"
+    },
+    "LUD__PBC_TR_C_098": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_C_098",
+      "motion_sha256": "4a3a5915e171b46852675dd590376aab5d247e33c426f39f2d9df95a9883a747"
+    },
+    "LUD__PBC_TR_P_051": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_P_051",
+      "motion_sha256": "f889fbd71e5e162534344c2f52c6bcf9a343e77762520c28cb70630bf0793379"
+    },
+    "LUD__PBC_TR_R_078": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\LUD__PBC_TR_R_078",
+      "motion_sha256": "8afee5cbe86347305f56d50669ff4f47693ec24ad0bc7c635bfea2251ccf06c2"
+    },
+    "NEZ": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\runtimes\\worker_0\\data\\characters\\NEZ",
+      "motion_sha256": "e9afadf05bb3cb5000d266e09bd75053c32851f7f12d2df05db28dd690014276"
+    },
+    "NEZ__CEXT_V3_A_026": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_026",
+      "motion_sha256": "4c103d6cf6d911cf5fc254532cc5292632ac1d26dffd57eb86b620065233f6f7"
+    },
+    "NEZ__CEXT_V3_A_068": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_068",
+      "motion_sha256": "197b1d259dfb1cdc55e4ed0c12c6ddaedac81e1f2f29686ece8039a3de5e9ee3"
+    },
+    "NEZ__CEXT_V3_A_092": {
+      "source": "C:\\Users\\Ryanm\\AppData\\Local\\fightICE_hot\\synthetic_catalogue_extension_C_2026_10_03\\final_characters_v3\\NEZ__CEXT_V3_A_092",
+      "motion_sha256": "fa0523dce54b9321d3c02142e2dad2acd01517a1c1bdddeb4f7a493adc8174f3"
+    },
+    "ZEN": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN",
+      "motion_sha256": "49bfe1dcbb669481b434418f2ba6890688922302f556073ad33f0539bf71c800"
+    },
+    "ZEN__PBC_TR_C_095": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_C_095",
+      "motion_sha256": "3a97bbeaedcb3fd0b9cd0f01fe7af9181ca1c27fbf7bfc8e68a0107ba6fcb860"
+    },
+    "ZEN__PBC_TR_P_042": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_P_042",
+      "motion_sha256": "fb0e288a379a54f1433920c0241c760d72e4bf9ffd04e6c32b35cac8681573ec"
+    },
+    "ZEN__PBC_TR_R_076": {
+      "source": "D:\\fightICE\\ai agent work\\tools\\synthetic_catalogue_phase_C_2026_09_28\\work\\runtime\\data\\characters\\ZEN__PBC_TR_R_076",
+      "motion_sha256": "da0c3b6a71b6bbccc3506919d2f8462210b086fd6fe84ddc024abc68f45d1876"
+    }
+  },
+  "layout": "private mutable worker runtime; read-only character junctions; D5 audit engine"
+}
