@@ -1,12 +1,13 @@
-# Synthetic FightingICE generator — standalone folder
+# Synthetic FightingICE generator - shared approved engine
 
-**Version 1.2.0.** Copy or move this entire `synthetic generator` folder wherever
-you want to keep it. Its code, stock models, approved engine assets, third-party
-Python libraries and configuration travel together. Historical catalogues,
-archives and run evidence are kept in untracked research storage, outside this
-approved package.
-Nothing under `ai agent work`, an old virtual environment, `%LOCALAPPDATA%`, or
-another project folder is required to run the generator.
+**Version 1.2.1.** Keep this folder beside `approved work/engine` when moving
+approved work. The generator uses the single approved engine at
+`../engine/observation_enabled_v1/FightingICE.observation-enabled.jar`; it does
+not bundle a second JAR. The engine hash is checked before use. Other runtime
+assets, Python libraries, models and configuration remain in this folder.
+Historical catalogues, archives and run evidence stay outside approved work.
+Nothing under `ai agent work`, an old virtual environment or `%LOCALAPPDATA%`
+is required to run the generator.
 
 Windows x64, **Python 3.12 x64** and a **Java/JDK** installation with `java` and
 `javac` on PATH remain system requirements. All seven required third-party Python
@@ -47,7 +48,7 @@ synthetic generator/
   config.json               Editable settings for a new run
   RELEASE.json              Frozen source, asset and library hashes
   src/                      Complete generator and validator implementation
-  assets/                   Stock models, tables, engine and runtime assets
+  assets/                   Stock models, tables and other runtime assets
   python_lib/               Pinned Python libraries and their dependencies
   verification/             Software checks and reference vectors
   provenance/               Dependency metadata and source lineage
@@ -70,9 +71,11 @@ Edit [config.json](config.json) before a new run. The default is:
 ```
 
 This path is relative to the configuration file. With the configuration here,
-moving this folder to C: makes the output use C: automatically. Configuration
+moving approved work to C: makes the output use C: automatically. Keep the
+`engine` and `synthetic generator` folders beside each other. Configuration
 files and output folders stay inside this generator folder; there are no
-hard-coded drive letters or external project dependencies. `--config` selects
+hard-coded drive letters or research-folder dependencies. The shared approved
+engine is the one project dependency outside this generator folder. `--config` selects
 another configuration kept inside this folder. Its relative output resolves
 from that configuration's directory. Run-index paths are relative too.
 
@@ -91,7 +94,7 @@ strata. Range validation preserves role separation and the secondary gap.
 
 A run freezes effective settings in `RUN_CONFIG.json`. Resume requires those
 same settings and output location. A new configuration needs a new run ID and
-empty output folder. Move the generator before starting a run: interrupted
+empty output folder. Move approved work before starting a run: interrupted
 evidence in an already-started run retains absolute commitment paths, so moving
 an unfinished run requires a separate evidence migration.
 
@@ -173,7 +176,9 @@ does not change those archive bytes.
 
 ## Verification and release
 
-`RELEASE.json` binds source, models, assets and bundled Python libraries.
+`RELEASE.json` binds source, models, assets, bundled Python libraries and the
+shared engine path/hash. Runtime provisioning still stages private run assets
+and verifies their bytes; it never modifies the approved engine.
 `config.json` remains an editable template. Original source locations recorded in
 lineage metadata are historical identifiers, not runtime dependencies. Raw run
 archives and historical report copies are excluded from this package.

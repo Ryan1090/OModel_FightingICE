@@ -6,6 +6,18 @@ from gmtv.schema import sha
 def context_for(item):
  from selection_override import context_for
  return context_for(item)
+def runtime_source(relative):
+ """Resolve and verify the shared approved engine relative to this package."""
+ relative=Path(relative)
+ if relative.is_absolute() or '..' in relative.parts:raise ValueError('Invalid runtime asset path')
+ if relative.as_posix()=='FightingICE.jar':
+  from gmtv.engine import ENGINE_SHA
+  path=c.BASE.parent/'engine/observation_enabled_v1/FightingICE.observation-enabled.jar'
+  if not path.is_file():raise RuntimeError('Shared approved engine missing: '+str(path))
+  if sha(path)!=ENGINE_SHA:raise RuntimeError('Shared approved engine checksum mismatch: '+str(path))
+  return path
+ return c.BASE/'assets/runtime'/relative
+
 def directory_link(target,source):
  import _winapi
  target=Path(target);source=Path(source)
@@ -32,7 +44,7 @@ def provision(home):
   with byte_lock(c.HOT/'RUNTIME_ASSETS.lock'):
    if not ready.exists():
     for row in m['files']:
-     origin=source/'runtime'/row['path'];target=mirror/row['path'];target.parent.mkdir(parents=True,exist_ok=True)
+     origin=runtime_source(row['path']);target=mirror/row['path'];target.parent.mkdir(parents=True,exist_ok=True)
      if not target.exists():shutil.copyfile(origin,target)
      if sha(target)!=row['sha256']:raise RuntimeError('Run asset staging mismatch')
     atomic(ready,{'manifest_sha256':identity,'files':len(m['files'])})

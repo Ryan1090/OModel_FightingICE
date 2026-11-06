@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0",
-  "approved_date_Perth": "2026-11-05",
-  "user_authorisation": "The synthetic generator folder must contain everything project-specific and operate standalone when moved; outputs belong inside it.",
-  "release_checksum": "9e96c4865fe72dd849301f5bd5da41e99a6624dc8ea428b45f69ae3f302ff4f6",
-  "software_checks_sha256": "556a8ca127e3014fa3261eb96612f2451693e7ce855dc6cd8b56669bc857682b",
-  "portability_check_sha256": "29e1a0fad5f60bb3e857c0d5345ddae98ed5a033529f3e9bb785068591840982",
-  "software_checks": 14,
+  "version": "1.2.1",
+  "approved_date_Perth": "2026-11-06",
+  "user_authorisation": "Remove the duplicate engine and have the generator refer to the one in approved work/engine.",
+  "release_checksum": "ccaee599119df768ad851ce863d49408bc227b347d4e39dadb4c7ff1fb08b1ce",
+  "software_checks_sha256": "21bdb838cf25ee2df71355add92e8839f8054b58a90e59100623e2f4e90ae756",
+  "portability_check_sha256": "2e9e87cf784c911619b2e0480f4ad9486504b66d17c71163545c78fccc756f44",
+  "software_checks": 26,
   "bundled_Python_distributions": 7,
   "originals_unchanged": true,
   "new_gameplay_started": false,
@@ -16,7 +16,14 @@
   "historical_catalogues_bundled": false,
   "historical_report_copies_bundled": false,
   "cleanup_authorisation": "remove those archive files; they stay untracked; approved work includes essentials needed to rerun the experiment from scratch",
-  "software_check_count": 24,
+  "software_check_count": 26,
   "default_retain_evidence": false,
-  "working_evidence_used_until_final_verification": true
+  "working_evidence_used_until_final_verification": true,
+  "shared_approved_engine": {
+    "relative_path": "../engine/observation_enabled_v1/FightingICE.observation-enabled.jar",
+    "sha256": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635",
+    "runtime_name": "FightingICE.jar"
+  },
+  "standalone_generator_folder": false,
+  "move_sibling_folders_together": true
 }

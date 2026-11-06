@@ -69,7 +69,7 @@ def main(argv=None):
         for name,version in expected.items():
             if md.version(name)!=version:raise RuntimeError('Pinned dependency differs: '+name)
         for record in json.loads((PACKAGE/'assets/runtime_manifest.json').read_text())['files']:
-            if c.sha(PACKAGE/'assets/runtime'/record['path'])!=record['sha256']:raise RuntimeError('Engine asset mismatch: '+record['path'])
+            if c.sha(__import__('runtime_api').runtime_source(record['path']))!=record['sha256']:raise RuntimeError('Engine asset mismatch: '+record['path'])
         schedule=c.original.schedule()
         if len(schedule)*len(config['roots'])!=c.TOTAL:raise RuntimeError('Configured schedule count mismatch')
         print(json.dumps({'passed':True,'total':c.TOTAL,'quotas_per_root':c.QUOTAS,'output':str(hot),'retain_evidence':config['retain_evidence'],'gameplay_calls':0,'candidate_writes':0}));return 0

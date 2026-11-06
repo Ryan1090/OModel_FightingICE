@@ -1,3 +1,15 @@
+# Current layout ? 1.2.1 shared approved engine
+
+The user explicitly replaced the earlier whole-folder standalone requirement
+with a shared-engine layout. The generator resolves the unchanged engine at
+`../engine/observation_enabled_v1/FightingICE.observation-enabled.jar` and
+verifies its approved SHA-256 before staging it. The duplicate generator JAR
+has been removed. Move both sibling folders together; no drive letter is fixed.
+All other libraries/models/runtime assets and folder-relative output handling
+remain as before. Scientific rules and engine bytes are unchanged.
+
+The preceding layout history below describes the superseded packaging.
+
 # Standalone layout revision — 1.1.0
 
 Distribution cleanup: the user subsequently specified that approved work should

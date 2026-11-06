@@ -50,3 +50,13 @@ The historical completed run retained 626 old tables and added four under the
 corrected witness. A fresh run of this release applies the corrected witness
 consistently from its first candidate. This does not retroactively replace any
 of those 626 tables or install the separate 49 replay proposals.
+
+
+## 1.2.1 ? one shared approved engine (2026-11-06 Perth)
+
+At the user's request, removed assets/runtime/FightingICE.jar and resolve the
+unchanged approved JAR from the sibling engine/observation_enabled_v1 folder.
+Check and runtime provisioning verify the approved engine hash. Missing or
+corrupt engines fail closed, without fallback to a stale bundled file. Private
+runtime staging, scientific rules and evidence retention are unchanged. Tests
+cover moved sibling layouts and exact runtime provisioning without gameplay.

@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
-  "frozen_date_Perth": "2026-11-05",
+  "version": "1.2.1",
+  "frozen_date_Perth": "2026-11-06",
   "files": {
     "src/admission_r4.py": "226d0be47b0a2b70737c7c10ea30bf93db32392ec089086227406994825bc2cc",
-    "src/app.py": "ba92fa9e87d662f6d2ea588091c7bdb5ba3101de233d320dcb0e91b69df13128",
+    "src/app.py": "68dd6fcb999680a863622f324e3d2f47307ea0612605e6e84e69e12d591c80af",
     "src/catalogue.py": "6a94adc1c4de1ae96be8b17289ec44ae6275a7d9efadbe699a199e8c79c733df",
     "src/common.py": "efdd6c9b101d9f5eead86ac4bdf9781c477b82b35788a035492ea8c466abf087",
     "src/dependencies.py": "819adba9b6988d5a7c9407c712296a87a8c00825768c52bf6c29c002ddc7fdfe",
@@ -55,7 +55,7 @@
     "src/repair_rules.py": "0158a166f10e979a44ab2acd01bbca90319813cd4070c705100edca396ee777f",
     "src/resolution_selection.py": "7d69e89144d5101b9d6dfc1668d3541caf8a5fb6c2d2ee4f9b40055c4a98448f",
     "src/resources.py": "bc413d25c667e86b670db00ef311ab48f533b9ae4e9473b43d66c57415e940c9",
-    "src/runtime_api.py": "4a155771e71c07aab96f3e78536277a78457c94b0f55c96490f41a0fd9121db1",
+    "src/runtime_api.py": "3acc9339a27b5a4d44c325c8c764b4be93f326cd7f64826ccb6b743aefa2ae42",
     "src/screen_v8.py": "2bd860a70882f15dd85aea1f53fdd1d92196d50358fa20fa3ebf07a635ddd47f",
     "src/sealed_store.py": "8dde3d4e13bc0a019aef8b19db9a26c84b73588f32373320c2e3ab5b85866518",
     "src/selection_override.py": "e4a9669907d2af068a47e0f85c22c23ec738d912000ae7989e5f4d82b7f22b49",
@@ -4674,7 +4674,6 @@
     "assets/runtime/data/sounds/THROW_HIT.wav": "fbefdb238c6df67d5af37a81776b425b953d3fd56784ff36c4a551653daadfcd",
     "assets/runtime/data/sounds/THROW_SUFFER.wav": "fbefdb238c6df67d5af37a81776b425b953d3fd56784ff36c4a551653daadfcd",
     "assets/runtime/data/sounds/WeakGuard.wav": "d88d6c7531a1730106839daf9e2839761f555b07830892926d3c7bb1b132b333",
-    "assets/runtime/FightingICE.jar": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635",
     "assets/runtime/lib/000_stock_a_legacy_adapter.jar": "01237f450ff8103b6eda269e920942722e682f6fa37f8eea349204e6644278d4",
     "assets/runtime/lib/000_stock_b_legacy_adapter.jar": "1124656dcadff3d7d36b7dfe35664a3cb73b3d434e0e0f0c3fba3177743de63d",
     "assets/runtime/lib/audit_dep_1_AIToolKit.jar": "04d2daad255bfac6153f72b7ee0bab5865b2dfba00ec1bf827d5c7bc63b86025",
@@ -6316,7 +6315,7 @@
     "python_lib/setuptools-83.0.0.dist-info/WHEEL": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
     "generator.py": "56ab5d4282a1f66c68fa076beb0a8772fe00d525cac893118fd6edebfcdb2ae2",
     "run.ps1": "c38be2eac73ef13375d7b7b7c4514d41bd268a911ed3d780cfb5e824805ea82c",
-    "verify.py": "b16a3f8831e2b26b2de2b1e3e17757c094f986b04f6f9b4a183dd76c43e51e89",
+    "verify.py": "f3f9e4051adea52b3f2fb08693ca43c878eb3ff0136b6c5c475aa4ecde6cacbc",
     "requirements.txt": "ee18730fad17d2eecee8ee29fb9302567c08da1eba4c20220598c8fe19751377",
     "verification/reference.pkl": "594c2ed689162af7a69d9f00e7ef020b55504f3b76d1ca31112490ca91bcc5d7",
     "verification/test_retention.py": "3a60c53ec9fa0f9b7d638f99139a11714797647efa38a5f1a3e346d3223c2244"
@@ -6325,8 +6324,8 @@
     "config.json"
   ],
   "default_configuration_sha256": "82feaa2af7641ab51ac56580ae1717c1a01dd569e10f73c8f1ef0238589570aa",
-  "predecessor_release_checksum": "5e0354125150d7795959100d3e736809aa27618a7d25082416d864a9495dc6f7",
-  "layout": "One self-contained synthetic generator folder, relative default output and bundled third-party Python libraries",
+  "predecessor_release_checksum": "9e96c4865fe72dd849301f5bd5da41e99a6624dc8ea428b45f69ae3f302ff4f6",
+  "layout": "Generator folder with sibling approved engine; local relative outputs",
   "external_system_requirements": [
     "Windows x64",
     "CPython 3.12 x64",
@@ -6337,5 +6336,10 @@
   "historical_catalogue_changed": false,
   "evidence_retention_default": false,
   "evidence_retention_scope": "Temporary working evidence remains through successful final verification; optional long-term retention.",
-  "checksum": "9e96c4865fe72dd849301f5bd5da41e99a6624dc8ea428b45f69ae3f302ff4f6"
+  "shared_engine": {
+    "relative_path": "../engine/observation_enabled_v1/FightingICE.observation-enabled.jar",
+    "sha256": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635",
+    "runtime_name": "FightingICE.jar"
+  },
+  "checksum": "ccaee599119df768ad851ce863d49408bc227b347d4e39dadb4c7ff1fb08b1ce"
 }

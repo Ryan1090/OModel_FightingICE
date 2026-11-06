@@ -11,6 +11,8 @@
     "balanced first-50-A and first-ten-far checkpoint trigger boundaries",
     "hash-bound commits reject corruption and writes outside run",
     "Windows encrypted archive, no plaintext C export and sealed-reopen refusal",
+    "one shared approved engine, exact frozen bytes, no bundled engine duplicate",
+    "relative shared-engine relocation, missing/corrupt engine refusal and no duplicate fallback",
     "verified run-local assets, immutable hard links, isolated mutable tables and owned graphics junction",
     "interrupted admission resumes identical bytes and coordinator integrates its commit exactly once",
     "real Windows-spawn worker boots final runtime and exits without gameplay",
@@ -26,7 +28,7 @@
     "interrupted compact seal resumes without opening a sealed archive",
     "held plan reader cannot invalidate durable completion"
   ],
-  "check_count": 24,
+  "check_count": 26,
   "seeded_samples": 630,
   "exact_constructed_tables": 55,
   "gameplay_calls": 0,

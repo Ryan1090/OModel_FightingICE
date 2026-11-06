@@ -1,6 +1,8 @@
 {
   "passed": true,
-  "relocated_preflight": {
+  "version": "1.2.1",
+  "release_checksum": "ccaee599119df768ad851ce863d49408bc227b347d4e39dadb4c7ff1fb08b1ce",
+  "preflight": {
     "passed": true,
     "total": 630,
     "quotas_per_root": {
@@ -10,14 +12,20 @@
       "C_near": 16,
       "C_far": 20
     },
-    "output": "D:\\fightICE\\ai agent work\\tools\\standalone_generator_20261105\\relocated_check\\independent generator\\generated characters\\catalogue_001",
+    "output": "D:\\fightICE\\approved work\\synthetic generator\\generated characters\\catalogue_001",
+    "retain_evidence": false,
     "gameplay_calls": 0,
     "candidate_writes": 0
   },
   "bare_python": true,
   "site_packages_disabled": true,
   "working_directory_outside_generator": true,
+  "working_directory": "C:/Windows",
+  "shared_engine_relative_path": "../engine/observation_enabled_v1/FightingICE.observation-enabled.jar",
+  "shared_engine_sha256": "0b1defaff286e892481f27572b2d951c3da1ab60ce04928e4a6453510a8b5635",
+  "relocated_sibling_layout_software_control_passed": true,
+  "missing_and_corrupt_shared_engine_rejected": true,
   "runtime_dependency_on_ai_agent_work": false,
   "gameplay_calls": 0,
-  "copy_mode": "Independent hard-linked files, no directory junctions; no dataset or archive access required"
+  "scope": "Actual Check from unrelated cwd; relative sibling relocation and runtime provisioning verified by integrated software controls."
 }

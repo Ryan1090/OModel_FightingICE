@@ -137,6 +137,40 @@ def main():
         except RuntimeError:pass
         else:raise AssertionError('Sealed archive reopened')
     check('Windows encrypted archive, no plaintext C export and sealed-reopen refusal',private_archive)
+    def shared_engine():
+        api=c.local_module('runtime_api')
+        expected=PACKAGE.parent/'engine/observation_enabled_v1/FightingICE.observation-enabled.jar'
+        assert api.runtime_source('FightingICE.jar')==expected
+        assert not (PACKAGE/'assets/runtime/FightingICE.jar').exists()
+        manifest=json.loads((PACKAGE/'assets/runtime_manifest.json').read_text())
+        row=next(r for r in manifest['files'] if r['path']=='FightingICE.jar')
+        assert c.sha(expected)==row['sha256']
+        release=json.loads(c.RELEASE.read_text())
+        assert release['shared_engine']['sha256']==row['sha256']
+        assert (PACKAGE/release['shared_engine']['relative_path']).resolve()==expected.resolve()
+    check('one shared approved engine, exact frozen bytes, no bundled engine duplicate',shared_engine)
+    def shared_engine_guards():
+        api=c.local_module('runtime_api');saved=c.BASE
+        fixture=work/'relocated approved work';package=fixture/'renamed generator';package.mkdir(parents=True)
+        engine=fixture/'engine/observation_enabled_v1/FightingICE.observation-enabled.jar';engine.parent.mkdir(parents=True)
+        try:
+            c.BASE=package
+            # A stale local copy must never conceal a missing approved engine.
+            stale=package/'assets/runtime/FightingICE.jar';stale.parent.mkdir(parents=True);stale.write_bytes(b'stale')
+            try:api.runtime_source('FightingICE.jar')
+            except RuntimeError as e:assert 'missing' in str(e)
+            else:raise AssertionError('Missing shared engine accepted')
+            engine.write_bytes(b'corrupt')
+            try:api.runtime_source('FightingICE.jar')
+            except RuntimeError as e:assert 'checksum mismatch' in str(e)
+            else:raise AssertionError('Corrupt shared engine accepted')
+            engine.unlink();os.link(saved.parent/'engine/observation_enabled_v1/FightingICE.observation-enabled.jar',engine)
+            assert api.runtime_source('FightingICE.jar')==engine
+            try:api.runtime_source('../escape.jar')
+            except ValueError:pass
+            else:raise AssertionError('Runtime path traversal accepted')
+        finally:c.BASE=saved
+    check('relative shared-engine relocation, missing/corrupt engine refusal and no duplicate fallback',shared_engine_guards)
     def provision():
         api=c.local_module('runtime_api');a=c.HOT/'provision-test-a';b=c.HOT/'provision-test-b'
         api.provision(a);api.provision(b)
